@@ -1,0 +1,909 @@
+17:02:56 **** Build of project mlp_bsp ****
+make -k all 
+"Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_2/src"
+make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/axidma_v9_8/src"
+make -C psu_cortexa53_0/libsrc/axidma_v9_8/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_7/src"
+make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/clockps_v1_0/src"
+make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/csudma_v1_3/src"
+make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_1/src"
+make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_4/src"
+make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/iicps_v3_8/src"
+make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_4/src"
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/resetps_v1_2/src"
+make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src"
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/scugic_v3_10/src"
+make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sdps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/spips_v3_1/src"
+make -C psu_cortexa53_0/libsrc/spips_v3_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/standalone_v6_8/src"
+make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src"
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/tmrctr_v4_5/src"
+make -C psu_cortexa53_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/uartps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/video_common_v4_5/src"
+make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_1/src"
+make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/Wrapped_MLP_v1_0/src"
+make -C psu_cortexa53_0/libsrc/Wrapped_MLP_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/xilffs_v4_0/src"
+make -C psu_cortexa53_0/libsrc/xilffs_v4_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/zdma_v1_6/src"
+make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_2/src"
+make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling avbuf"
+aarch64-none-elf-ar: creating ../../../lib/libxil.a
+"Running Make libs in psu_cortexa53_0/libsrc/axidma_v9_8/src"
+make -C psu_cortexa53_0/libsrc/axidma_v9_8/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling axidma"
+"Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_7/src"
+make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling axipmon"
+"Running Make libs in psu_cortexa53_0/libsrc/clockps_v1_0/src"
+make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling clockps"
+"Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling cpu_cortexa53"
+"Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_3/src"
+make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling csudma"
+"Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ddrcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_1/src"
+make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling dpdma"
+"Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_4/src"
+make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_8/src"
+make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_4/src"
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ipipsu"
+"Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_2/src"
+make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling resetps"
+"Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src"
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling rtcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/scugic_v3_10/src"
+make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in psu_cortexa53_0/libsrc/spips_v3_1/src"
+make -C psu_cortexa53_0/libsrc/spips_v3_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling spips"
+"Running Make libs in psu_cortexa53_0/libsrc/standalone_v6_8/src"
+make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling standalone A53"
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:52:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:59:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+translation_table.S:145:2: warning: #warning "There's no DDR_1 in the HW design. MMU translation table marks 32 GB DDR address space as undefined" [-Wcpp]
+ #warning "There's no DDR_1 in the HW design. MMU translation table marks 32 GB DDR address space as undefined"
+  ^~~~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src"
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sysmonpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/tmrctr_v4_5/src"
+make -C psu_cortexa53_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling usbpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_5/src"
+make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling video_common"
+"Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_1/src"
+make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling wdtps"
+"Running Make libs in psu_cortexa53_0/libsrc/Wrapped_MLP_v1_0/src"
+make -C psu_cortexa53_0/libsrc/Wrapped_MLP_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling Wrapped_MLP"
+"Running Make libs in psu_cortexa53_0/libsrc/xilffs_v4_0/src"
+make -C psu_cortexa53_0/libsrc/xilffs_v4_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling XilFFs Library"
+"Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_6/src"
+make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling zdma"
+'Finished building libraries'
+17:04:45 **** Clean-only build of configuration Debug for project mlp ****
+make clean 
+rm -rf  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o  ./src/lib_xmlp_wrapped.d ./src/main.d ./src/platform.d  mlp.elf.size  mlp.elf
+' '
+17:04:45 **** Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/lib_xmlp_wrapped.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_xmlp_wrapped.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/lib_xmlp_wrapped.d" -MT"src/lib_xmlp_wrapped.o" -o "src/lib_xmlp_wrapped.o" "../src/lib_xmlp_wrapped.c"
+../src/lib_xmlp_wrapped.c: In function 'Run_HW_Accelerator':
+../src/lib_xmlp_wrapped.c:155:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (unsigned int) pixels, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_xmlp_wrapped.c:166:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("La label es %f", label);
+  ^~~~~~
+../src/lib_xmlp_wrapped.c:166:2: warning: incompatible implicit declaration of built-in function 'printf'
+../src/lib_xmlp_wrapped.c:166:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/lib_xmlp_wrapped.c:166:23: warning: format '%f' expects argument of type 'double', but argument 2 has type 'u32 {aka unsigned int}' [-Wformat=]
+  printf("La label es %f", label);
+                      ~^
+                      %d
+'Finished building: ../src/lib_xmlp_wrapped.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:315:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) pixels, dma_size);
+                       ^
+../src/main.c:316:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:317:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:329:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:260:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:364:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:324:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125668	   7952	 334544	 468164	  724c4	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+17:07:35 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:318:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) pixels, dma_size);
+                       ^
+../src/main.c:319:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:320:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:332:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:263:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:367:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:327:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125668	   7952	 334544	 468164	  724c4	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+17:08:07 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'LoadFile':
+../src/main.c:221:25: error: 'data_labels' undeclared (first use in this function); did you mean 'res_labels'?
+  m_labels = (uint8_t*)&(data_labels[2]);
+                         ^~~~~~~~~~~
+                         res_labels
+../src/main.c:221:25: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:222:25: error: 'data_images' undeclared (first use in this function); did you mean 'data_labels'?
+  m_pixels = (uint8_t*)&(data_images[4]);
+                         ^~~~~~~~~~~
+                         data_labels
+../src/main.c: In function 'main':
+../src/main.c:318:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) pixels, dma_size);
+                       ^
+../src/main.c:319:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:320:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:332:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:263:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:367:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:08:24 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:318:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) pixels, dma_size);
+                       ^
+../src/main.c:319:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:320:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:332:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:263:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:367:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:327:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125172	   7952	 334528	 467652	  722c4	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+17:08:38 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:52 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:55 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+17:10:05 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+17:10:48 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:22 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/lib_xmlp_wrapped.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_xmlp_wrapped.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/lib_xmlp_wrapped.d" -MT"src/lib_xmlp_wrapped.o" -o "src/lib_xmlp_wrapped.o" "../src/lib_xmlp_wrapped.c"
+../src/lib_xmlp_wrapped.c: In function 'Run_HW_Accelerator':
+../src/lib_xmlp_wrapped.c:155:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (unsigned int) pixels, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_xmlp_wrapped.c:166:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("La label es %f", label);
+  ^~~~~~
+../src/lib_xmlp_wrapped.c:166:2: warning: incompatible implicit declaration of built-in function 'printf'
+../src/lib_xmlp_wrapped.c:166:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/lib_xmlp_wrapped.c:166:23: warning: format '%f' expects argument of type 'double', but argument 2 has type 'u32 {aka unsigned int}' [-Wformat=]
+  printf("La label es %f", label);
+                      ~^
+                      %d
+'Finished building: ../src/lib_xmlp_wrapped.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125172	   7952	 334528	 467652	  722c4	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+17:11:53 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+17:32:06 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/lib_xmlp_wrapped.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_xmlp_wrapped.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/lib_xmlp_wrapped.d" -MT"src/lib_xmlp_wrapped.o" -o "src/lib_xmlp_wrapped.o" "../src/lib_xmlp_wrapped.c"
+../src/lib_xmlp_wrapped.c: In function 'Run_HW_Accelerator':
+../src/lib_xmlp_wrapped.c:155:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (unsigned int) pixels, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_xmlp_wrapped.c:166:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("La label es %f", label);
+  ^~~~~~
+../src/lib_xmlp_wrapped.c:166:2: warning: incompatible implicit declaration of built-in function 'printf'
+../src/lib_xmlp_wrapped.c:166:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/lib_xmlp_wrapped.c:166:23: warning: format '%f' expects argument of type 'double', but argument 2 has type 'u32 {aka unsigned int}' [-Wformat=]
+  printf("La label es %f", label);
+                      ~^
+                      %d
+'Finished building: ../src/lib_xmlp_wrapped.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:276:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:277:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:289:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:224:8: warning: variable 'pixels' set but not used [-Wunused-but-set-variable]
+  float pixels[SIZE];
+        ^~~~~~
+../src/main.c:221:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:324:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:284:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 124916	   7952	 334528	 467396	  721c4	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+17:32:35 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+18:24:09 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:276:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:277:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:289:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:224:8: warning: variable 'pixels' set but not used [-Wunused-but-set-variable]
+  float pixels[SIZE];
+        ^~~~~~
+../src/main.c:221:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:324:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:284:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 124916	   7952	 334528	 467396	  721c4	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+18:27:41 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+18:29:38 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:48 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:276:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:277:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:289:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:224:8: warning: variable 'pixels' set but not used [-Wunused-but-set-variable]
+  float pixels[SIZE];
+        ^~~~~~
+../src/main.c:221:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:324:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:284:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 124916	   7952	 334592	 467460	  72204	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+19:54:34 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+20:35:18 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/lib_xmlp_wrapped.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_xmlp_wrapped.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/lib_xmlp_wrapped.d" -MT"src/lib_xmlp_wrapped.o" -o "src/lib_xmlp_wrapped.o" "../src/lib_xmlp_wrapped.c"
+../src/lib_xmlp_wrapped.c: In function 'Run_HW_Accelerator':
+../src/lib_xmlp_wrapped.c:155:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (unsigned int) imagesFloat, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_xmlp_wrapped.c:166:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("La label es %f", label);
+  ^~~~~~
+../src/lib_xmlp_wrapped.c:166:2: warning: incompatible implicit declaration of built-in function 'printf'
+../src/lib_xmlp_wrapped.c:166:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/lib_xmlp_wrapped.c:166:23: warning: format '%f' expects argument of type 'double', but argument 2 has type 'u32 {aka unsigned int}' [-Wformat=]
+  printf("La label es %f", label);
+                      ~^
+                      %d
+'Finished building: ../src/lib_xmlp_wrapped.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:276:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:277:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:289:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:224:8: warning: variable 'pixels' set but not used [-Wunused-but-set-variable]
+  float pixels[SIZE];
+        ^~~~~~
+../src/main.c:221:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:324:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:284:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 124916	   7952	 334592	 467460	  72204	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+20:36:58 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+20:38:30 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:270:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:271:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:283:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:224:8: warning: unused variable 'pixels' [-Wunused-variable]
+  float pixels[SIZE];
+        ^~~~~~
+../src/main.c:221:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:318:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:278:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 124852	   7952	 334592	 467396	  721c4	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+20:39:33 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+20:40:17 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+20:42:57 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:270:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:271:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:275:19: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+   printf("images %f", imagesFloat);
+                  ~^   ~~~~~~~~~~~
+../src/main.c:286:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:224:8: warning: unused variable 'pixels' [-Wunused-variable]
+  float pixels[SIZE];
+        ^~~~~~
+../src/main.c:221:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:321:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:281:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 124932	   7952	 334576	 467460	  72204	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+20:43:27 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:58 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:270:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:271:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:275:19: warning: format '%d' expects argument of type 'int', but argument 2 has type 'float *' [-Wformat=]
+   printf("images %d\n", imagesFloat);
+                  ~^     ~~~~~~~~~~~
+../src/main.c:286:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:224:8: warning: unused variable 'pixels' [-Wunused-variable]
+  float pixels[SIZE];
+        ^~~~~~
+../src/main.c:221:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:321:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:281:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 124932	   7952	 334576	 467460	  72204	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+20:45:31 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+20:47:42 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:270:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:271:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:275:19: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 * {aka unsigned int *}' [-Wformat=]
+   printf("images %d\n", images);
+                  ~^     ~~~~~~
+                  %ls
+../src/main.c:286:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:224:8: warning: unused variable 'pixels' [-Wunused-variable]
+  float pixels[SIZE];
+        ^~~~~~
+../src/main.c:221:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:321:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:281:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 124932	   7952	 334576	 467460	  72204	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+20:48:22 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:00 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+21:11:33 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:270:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:271:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:275:19: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 * {aka unsigned int *}' [-Wformat=]
+   printf("images %d\n", images);
+                  ~^     ~~~~~~
+                  %ls
+../src/main.c:286:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:224:8: warning: unused variable 'pixels' [-Wunused-variable]
+  float pixels[SIZE];
+        ^~~~~~
+../src/main.c:221:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:321:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:281:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 124868	   7952	 334576	 467396	  721c4	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+21:12:12 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mlp_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:270:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) imagesFloat, dma_size);
+                       ^
+../src/main.c:271:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) res, dma_size);
+                       ^
+../src/main.c:283:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int)res,dma_size);
+                       ^
+../src/main.c:224:8: warning: unused variable 'pixels' [-Wunused-variable]
+  float pixels[SIZE];
+        ^~~~~~
+../src/main.c:221:6: warning: unused variable 'result' [-Wunused-variable]
+  int result;
+      ^~~~~~
+../src/main.c: In function 'MLP':
+../src/main.c:318:29: warning: unused variable 'output' [-Wunused-variable]
+  float sumatorio=0, input=0,output=0, aux=0, posicion_mayor=0;
+                             ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:278:25: warning: 'begin_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  run_time_hw = end_time - begin_time - calibration;
+                ~~~~~~~~~^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: mlp.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mlp_bsp/psu_cortexa53_0/lib -o "mlp.elf"  ./src/lib_xmlp_wrapped.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mlp.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mlp.elf  |tee "mlp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 124788	   7952	 334592	 467332	  72184	mlp.elf
+'Finished building: mlp.elf.size'
+' '
+21:12:45 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+21:13:49 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+12:21:35 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.

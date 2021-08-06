@@ -1,0 +1,2030 @@
+
+
+================================================================
+== Vivado HLS Report for 'MLP'
+================================================================
+* Date:           Thu Dec 17 22:11:12 2020
+
+* Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
+* Project:        project_mlp
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu3eg-sbva484-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     8.669|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +--------+--------+--------+--------+---------+
+    |     Latency     |     Interval    | Pipeline|
+    |   min  |   max  |   min  |   max  |   Type  |
+    +--------+--------+--------+--------+---------+
+    |  546773|  546773|  546773|  546773|   none  |
+    +--------+--------+--------+--------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+--------+--------+----------+-----------+-----------+------+----------+
+        |             |     Latency     | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  |   min  |   max  |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+--------+--------+----------+-----------+-----------+------+----------+
+        |- Loop 1     |  454720|  454720|      7105|          -|          -|    64|    no    |
+        | + Loop 1.1  |    7056|    7056|         9|          -|          -|   784|    no    |
+        |- Loop 2     |   80000|   80000|       625|          -|          -|   128|    no    |
+        | + Loop 2.1  |     576|     576|         9|          -|          -|    64|    no    |
+        |- Loop 3     |   12050|   12050|      1205|          -|          -|    10|    no    |
+        | + Loop 3.1  |    1152|    1152|         9|          -|          -|   128|    no    |
+        +-------------+--------+--------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 176
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (!exitcond5)
+	59  / (exitcond5)
+3 --> 
+	4  / (!exitcond4)
+	12  / (exitcond4)
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	8  / true
+8 --> 
+	9  / true
+9 --> 
+	10  / true
+10 --> 
+	11  / true
+11 --> 
+	3  / true
+12 --> 
+	13  / true
+13 --> 
+	14  / true
+14 --> 
+	15  / true
+15 --> 
+	16  / true
+16 --> 
+	17  / true
+17 --> 
+	18  / true
+18 --> 
+	19  / true
+19 --> 
+	20  / true
+20 --> 
+	21  / true
+21 --> 
+	22  / true
+22 --> 
+	23  / true
+23 --> 
+	24  / true
+24 --> 
+	25  / true
+25 --> 
+	26  / true
+26 --> 
+	27  / true
+27 --> 
+	28  / true
+28 --> 
+	29  / true
+29 --> 
+	30  / true
+30 --> 
+	31  / true
+31 --> 
+	32  / true
+32 --> 
+	33  / true
+33 --> 
+	34  / true
+34 --> 
+	35  / true
+35 --> 
+	36  / true
+36 --> 
+	37  / true
+37 --> 
+	38  / true
+38 --> 
+	39  / true
+39 --> 
+	40  / true
+40 --> 
+	41  / true
+41 --> 
+	42  / true
+42 --> 
+	43  / true
+43 --> 
+	44  / true
+44 --> 
+	45  / true
+45 --> 
+	46  / true
+46 --> 
+	47  / true
+47 --> 
+	48  / true
+48 --> 
+	49  / true
+49 --> 
+	50  / true
+50 --> 
+	51  / true
+51 --> 
+	52  / true
+52 --> 
+	53  / true
+53 --> 
+	54  / true
+54 --> 
+	55  / true
+55 --> 
+	56  / true
+56 --> 
+	57  / true
+57 --> 
+	58  / true
+58 --> 
+	2  / true
+59 --> 
+	60  / (!exitcond3)
+	116  / (exitcond3)
+60 --> 
+	61  / (!exitcond2)
+	69  / (exitcond2)
+61 --> 
+	62  / true
+62 --> 
+	63  / true
+63 --> 
+	64  / true
+64 --> 
+	65  / true
+65 --> 
+	66  / true
+66 --> 
+	67  / true
+67 --> 
+	68  / true
+68 --> 
+	60  / true
+69 --> 
+	70  / true
+70 --> 
+	71  / true
+71 --> 
+	72  / true
+72 --> 
+	73  / true
+73 --> 
+	74  / true
+74 --> 
+	75  / true
+75 --> 
+	76  / true
+76 --> 
+	77  / true
+77 --> 
+	78  / true
+78 --> 
+	79  / true
+79 --> 
+	80  / true
+80 --> 
+	81  / true
+81 --> 
+	82  / true
+82 --> 
+	83  / true
+83 --> 
+	84  / true
+84 --> 
+	85  / true
+85 --> 
+	86  / true
+86 --> 
+	87  / true
+87 --> 
+	88  / true
+88 --> 
+	89  / true
+89 --> 
+	90  / true
+90 --> 
+	91  / true
+91 --> 
+	92  / true
+92 --> 
+	93  / true
+93 --> 
+	94  / true
+94 --> 
+	95  / true
+95 --> 
+	96  / true
+96 --> 
+	97  / true
+97 --> 
+	98  / true
+98 --> 
+	99  / true
+99 --> 
+	100  / true
+100 --> 
+	101  / true
+101 --> 
+	102  / true
+102 --> 
+	103  / true
+103 --> 
+	104  / true
+104 --> 
+	105  / true
+105 --> 
+	106  / true
+106 --> 
+	107  / true
+107 --> 
+	108  / true
+108 --> 
+	109  / true
+109 --> 
+	110  / true
+110 --> 
+	111  / true
+111 --> 
+	112  / true
+112 --> 
+	113  / true
+113 --> 
+	114  / true
+114 --> 
+	115  / true
+115 --> 
+	59  / true
+116 --> 
+	117  / (!exitcond1)
+117 --> 
+	118  / (!exitcond)
+	126  / (exitcond)
+118 --> 
+	119  / true
+119 --> 
+	120  / true
+120 --> 
+	121  / true
+121 --> 
+	122  / true
+122 --> 
+	123  / true
+123 --> 
+	124  / true
+124 --> 
+	125  / true
+125 --> 
+	117  / true
+126 --> 
+	127  / true
+127 --> 
+	128  / true
+128 --> 
+	129  / true
+129 --> 
+	130  / true
+130 --> 
+	131  / true
+131 --> 
+	132  / true
+132 --> 
+	133  / true
+133 --> 
+	134  / true
+134 --> 
+	135  / true
+135 --> 
+	136  / true
+136 --> 
+	137  / true
+137 --> 
+	138  / true
+138 --> 
+	139  / true
+139 --> 
+	140  / true
+140 --> 
+	141  / true
+141 --> 
+	142  / true
+142 --> 
+	143  / true
+143 --> 
+	144  / true
+144 --> 
+	145  / true
+145 --> 
+	146  / true
+146 --> 
+	147  / true
+147 --> 
+	148  / true
+148 --> 
+	149  / true
+149 --> 
+	150  / true
+150 --> 
+	151  / true
+151 --> 
+	152  / true
+152 --> 
+	153  / true
+153 --> 
+	154  / true
+154 --> 
+	155  / true
+155 --> 
+	156  / true
+156 --> 
+	157  / true
+157 --> 
+	158  / true
+158 --> 
+	159  / true
+159 --> 
+	160  / true
+160 --> 
+	161  / true
+161 --> 
+	162  / true
+162 --> 
+	163  / true
+163 --> 
+	164  / true
+164 --> 
+	165  / true
+165 --> 
+	166  / true
+166 --> 
+	167  / true
+167 --> 
+	168  / true
+168 --> 
+	169  / true
+169 --> 
+	170  / true
+170 --> 
+	171  / true
+171 --> 
+	172  / true
+172 --> 
+	173  / true
+173 --> 
+	174  / true
+174 --> 
+	175  / true
+175 --> 
+	176  / true
+176 --> 
+	116  / true
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.75>
+ST_1 : Operation 177 [1/1] (0.00ns)   --->   "%hiddenlayer1 = alloca [64 x float], align 16" [../../mlp_hw_bueno/src/top_function.cpp:19]   --->   Operation 177 'alloca' 'hiddenlayer1' <Predicate = true> <Delay = 0.00> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 128> <RAM>
+ST_1 : Operation 178 [1/1] (0.00ns)   --->   "%hiddenlayer2 = alloca [128 x float], align 16" [../../mlp_hw_bueno/src/top_function.cpp:20]   --->   Operation 178 'alloca' 'hiddenlayer2' <Predicate = true> <Delay = 0.00> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 128> <RAM>
+ST_1 : Operation 179 [1/1] (0.75ns)   --->   "br label %1" [../../mlp_hw_bueno/src/top_function.cpp:23]   --->   Operation 179 'br' <Predicate = true> <Delay = 0.75>
+
+State 2 <SV = 1> <Delay = 1.01>
+ST_2 : Operation 180 [1/1] (0.00ns)   --->   "%i = phi i7 [ 0, %0 ], [ %i_3, %3 ]"   --->   Operation 180 'phi' 'i' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 181 [1/1] (0.00ns)   --->   "%phi_mul = phi i16 [ 0, %0 ], [ %next_mul, %3 ]"   --->   Operation 181 'phi' 'phi_mul' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 182 [1/1] (1.01ns)   --->   "%next_mul = add i16 %phi_mul, 784"   --->   Operation 182 'add' 'next_mul' <Predicate = true> <Delay = 1.01> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 183 [1/1] (0.86ns)   --->   "%exitcond5 = icmp eq i7 %i, -64" [../../mlp_hw_bueno/src/top_function.cpp:23]   --->   Operation 183 'icmp' 'exitcond5' <Predicate = true> <Delay = 0.86> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 184 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 64, i64 64, i64 64)"   --->   Operation 184 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 185 [1/1] (0.89ns)   --->   "%i_3 = add i7 %i, 1" [../../mlp_hw_bueno/src/top_function.cpp:23]   --->   Operation 185 'add' 'i_3' <Predicate = true> <Delay = 0.89> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 186 [1/1] (0.00ns)   --->   "br i1 %exitcond5, label %.preheader8.preheader, label %.preheader9.preheader" [../../mlp_hw_bueno/src/top_function.cpp:23]   --->   Operation 186 'br' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 187 [1/1] (0.00ns)   --->   "%tmp = zext i7 %i to i64" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 187 'zext' 'tmp' <Predicate = (!exitcond5)> <Delay = 0.00>
+ST_2 : Operation 188 [1/1] (0.75ns)   --->   "br label %.preheader9" [../../mlp_hw_bueno/src/top_function.cpp:24]   --->   Operation 188 'br' <Predicate = (!exitcond5)> <Delay = 0.75>
+ST_2 : Operation 189 [1/1] (0.75ns)   --->   "br label %.preheader8" [../../mlp_hw_bueno/src/top_function.cpp:32]   --->   Operation 189 'br' <Predicate = (exitcond5)> <Delay = 0.75>
+
+State 3 <SV = 2> <Delay = 2.36>
+ST_3 : Operation 190 [1/1] (0.00ns)   --->   "%sumatorio_1 = phi float [ %sumatorio, %2 ], [ 0.000000e+00, %.preheader9.preheader ]"   --->   Operation 190 'phi' 'sumatorio_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 191 [1/1] (0.00ns)   --->   "%j = phi i10 [ %j_3, %2 ], [ 0, %.preheader9.preheader ]"   --->   Operation 191 'phi' 'j' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 192 [1/1] (0.85ns)   --->   "%exitcond4 = icmp eq i10 %j, -240" [../../mlp_hw_bueno/src/top_function.cpp:24]   --->   Operation 192 'icmp' 'exitcond4' <Predicate = true> <Delay = 0.85> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 193 [1/1] (0.00ns)   --->   "%empty_35 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 784, i64 784, i64 784)"   --->   Operation 193 'speclooptripcount' 'empty_35' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 194 [1/1] (0.93ns)   --->   "%j_3 = add i10 %j, 1" [../../mlp_hw_bueno/src/top_function.cpp:24]   --->   Operation 194 'add' 'j_3' <Predicate = true> <Delay = 0.93> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 195 [1/1] (0.00ns)   --->   "br i1 %exitcond4, label %3, label %2" [../../mlp_hw_bueno/src/top_function.cpp:24]   --->   Operation 195 'br' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 196 [1/1] (0.00ns)   --->   "%tmp_9 = zext i10 %j to i64" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 196 'zext' 'tmp_9' <Predicate = (!exitcond4)> <Delay = 0.00>
+ST_3 : Operation 197 [1/1] (0.00ns)   --->   "%tmp_9_cast = zext i10 %j to i16" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 197 'zext' 'tmp_9_cast' <Predicate = (!exitcond4)> <Delay = 0.00>
+ST_3 : Operation 198 [1/1] (1.01ns)   --->   "%tmp_26 = add i16 %phi_mul, %tmp_9_cast" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 198 'add' 'tmp_26' <Predicate = (!exitcond4)> <Delay = 1.01> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 199 [1/1] (0.00ns)   --->   "%tmp_37_cast = zext i16 %tmp_26 to i64" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 199 'zext' 'tmp_37_cast' <Predicate = (!exitcond4)> <Delay = 0.00>
+ST_3 : Operation 200 [1/1] (0.00ns)   --->   "%WeightHidden1_addr = getelementptr [50176 x float]* @WeightHidden1, i64 0, i64 %tmp_37_cast" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 200 'getelementptr' 'WeightHidden1_addr' <Predicate = (!exitcond4)> <Delay = 0.00>
+ST_3 : Operation 201 [2/2] (1.35ns)   --->   "%WeightHidden1_load = load float* %WeightHidden1_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 201 'load' 'WeightHidden1_load' <Predicate = (!exitcond4)> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+ST_3 : Operation 202 [1/1] (0.00ns)   --->   "%pixels_addr = getelementptr [784 x float]* %pixels, i64 0, i64 %tmp_9" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 202 'getelementptr' 'pixels_addr' <Predicate = (!exitcond4)> <Delay = 0.00>
+ST_3 : Operation 203 [2/2] (1.35ns)   --->   "%pixels_load = load float* %pixels_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 203 'load' 'pixels_load' <Predicate = (!exitcond4)> <Delay = 1.35> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 128> <RAM>
+ST_3 : Operation 204 [1/1] (0.00ns)   --->   "%BiasesHidden1_addr = getelementptr inbounds [64 x float]* @BiasesHidden1, i64 0, i64 %tmp" [../../mlp_hw_bueno/src/top_function.cpp:27]   --->   Operation 204 'getelementptr' 'BiasesHidden1_addr' <Predicate = (exitcond4)> <Delay = 0.00>
+ST_3 : Operation 205 [2/2] (1.35ns)   --->   "%BiasesHidden1_load = load float* %BiasesHidden1_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:27]   --->   Operation 205 'load' 'BiasesHidden1_load' <Predicate = (exitcond4)> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+
+State 4 <SV = 3> <Delay = 1.35>
+ST_4 : Operation 206 [1/2] (1.35ns)   --->   "%WeightHidden1_load = load float* %WeightHidden1_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 206 'load' 'WeightHidden1_load' <Predicate = true> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+ST_4 : Operation 207 [1/2] (1.35ns)   --->   "%pixels_load = load float* %pixels_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 207 'load' 'pixels_load' <Predicate = true> <Delay = 1.35> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 128> <RAM>
+
+State 5 <SV = 4> <Delay = 8.28>
+ST_5 : Operation 208 [3/3] (8.28ns)   --->   "%tmp_1 = fmul float %WeightHidden1_load, %pixels_load" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 208 'fmul' 'tmp_1' <Predicate = true> <Delay = 8.28> <Core = "FMul">   --->   Core 105 'FMul' <Latency = 2> <II = 1> <Delay = 8.28> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 6 <SV = 5> <Delay = 8.28>
+ST_6 : Operation 209 [2/3] (8.28ns)   --->   "%tmp_1 = fmul float %WeightHidden1_load, %pixels_load" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 209 'fmul' 'tmp_1' <Predicate = true> <Delay = 8.28> <Core = "FMul">   --->   Core 105 'FMul' <Latency = 2> <II = 1> <Delay = 8.28> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 7 <SV = 6> <Delay = 8.28>
+ST_7 : Operation 210 [1/3] (8.28ns)   --->   "%tmp_1 = fmul float %WeightHidden1_load, %pixels_load" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 210 'fmul' 'tmp_1' <Predicate = true> <Delay = 8.28> <Core = "FMul">   --->   Core 105 'FMul' <Latency = 2> <II = 1> <Delay = 8.28> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 8 <SV = 7> <Delay = 7.71>
+ST_8 : Operation 211 [4/4] (7.71ns)   --->   "%sumatorio = fadd float %sumatorio_1, %tmp_1" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 211 'fadd' 'sumatorio' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 9 <SV = 8> <Delay = 7.71>
+ST_9 : Operation 212 [3/4] (7.71ns)   --->   "%sumatorio = fadd float %sumatorio_1, %tmp_1" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 212 'fadd' 'sumatorio' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 10 <SV = 9> <Delay = 7.71>
+ST_10 : Operation 213 [2/4] (7.71ns)   --->   "%sumatorio = fadd float %sumatorio_1, %tmp_1" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 213 'fadd' 'sumatorio' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 11 <SV = 10> <Delay = 7.71>
+ST_11 : Operation 214 [1/4] (7.71ns)   --->   "%sumatorio = fadd float %sumatorio_1, %tmp_1" [../../mlp_hw_bueno/src/top_function.cpp:25]   --->   Operation 214 'fadd' 'sumatorio' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 215 [1/1] (0.00ns)   --->   "br label %.preheader9" [../../mlp_hw_bueno/src/top_function.cpp:24]   --->   Operation 215 'br' <Predicate = true> <Delay = 0.00>
+
+State 12 <SV = 3> <Delay = 1.35>
+ST_12 : Operation 216 [1/2] (1.35ns)   --->   "%BiasesHidden1_load = load float* %BiasesHidden1_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:27]   --->   Operation 216 'load' 'BiasesHidden1_load' <Predicate = true> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+
+State 13 <SV = 4> <Delay = 7.71>
+ST_13 : Operation 217 [4/4] (7.71ns)   --->   "%input = fadd float %sumatorio_1, %BiasesHidden1_load" [../../mlp_hw_bueno/src/top_function.cpp:27]   --->   Operation 217 'fadd' 'input' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 14 <SV = 5> <Delay = 7.71>
+ST_14 : Operation 218 [3/4] (7.71ns)   --->   "%input = fadd float %sumatorio_1, %BiasesHidden1_load" [../../mlp_hw_bueno/src/top_function.cpp:27]   --->   Operation 218 'fadd' 'input' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 15 <SV = 6> <Delay = 7.71>
+ST_15 : Operation 219 [2/4] (7.71ns)   --->   "%input = fadd float %sumatorio_1, %BiasesHidden1_load" [../../mlp_hw_bueno/src/top_function.cpp:27]   --->   Operation 219 'fadd' 'input' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 16 <SV = 7> <Delay = 7.71>
+ST_16 : Operation 220 [1/4] (7.71ns)   --->   "%input = fadd float %sumatorio_1, %BiasesHidden1_load" [../../mlp_hw_bueno/src/top_function.cpp:27]   --->   Operation 220 'fadd' 'input' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 17 <SV = 8> <Delay = 3.88>
+ST_17 : Operation 221 [1/1] (0.00ns)   --->   "%tmp_13_to_int = bitcast float %input to i32" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 221 'bitcast' 'tmp_13_to_int' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 222 [1/1] (0.40ns)   --->   "%tmp_13_neg = xor i32 %tmp_13_to_int, -2147483648" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 222 'xor' 'tmp_13_neg' <Predicate = true> <Delay = 0.40> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_17 : Operation 223 [1/1] (0.00ns)   --->   "%tmp_3 = bitcast i32 %tmp_13_neg to float" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 223 'bitcast' 'tmp_3' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 224 [1/1] (3.48ns)   --->   "%tmp_4 = fpext float %tmp_3 to double" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 224 'fpext' 'tmp_4' <Predicate = true> <Delay = 3.48> <Core = "Float2Double">   --->   Core 113 'Float2Double' <Latency = 0> <II = 1> <Delay = 3.48> <FuncUnit> <Opcode : 'fpext'> <InPorts = 1> <OutPorts = 1>
+
+State 18 <SV = 9> <Delay = 8.32>
+ST_18 : Operation 225 [13/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 225 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 19 <SV = 10> <Delay = 8.32>
+ST_19 : Operation 226 [12/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 226 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 20 <SV = 11> <Delay = 8.32>
+ST_20 : Operation 227 [11/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 227 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 21 <SV = 12> <Delay = 8.32>
+ST_21 : Operation 228 [10/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 228 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 22 <SV = 13> <Delay = 8.32>
+ST_22 : Operation 229 [9/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 229 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 23 <SV = 14> <Delay = 8.32>
+ST_23 : Operation 230 [8/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 230 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 24 <SV = 15> <Delay = 8.32>
+ST_24 : Operation 231 [7/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 231 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 25 <SV = 16> <Delay = 8.32>
+ST_25 : Operation 232 [6/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 232 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 26 <SV = 17> <Delay = 8.32>
+ST_26 : Operation 233 [5/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 233 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 27 <SV = 18> <Delay = 8.32>
+ST_27 : Operation 234 [4/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 234 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 28 <SV = 19> <Delay = 8.32>
+ST_28 : Operation 235 [3/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 235 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 29 <SV = 20> <Delay = 8.32>
+ST_29 : Operation 236 [2/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 236 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 30 <SV = 21> <Delay = 8.32>
+ST_30 : Operation 237 [1/13] (8.32ns)   --->   "%tmp_5 = call double @llvm.exp.f64(double %tmp_4)" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 237 'dexp' 'tmp_5' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 31 <SV = 22> <Delay = 6.91>
+ST_31 : Operation 238 [5/5] (6.91ns)   --->   "%tmp_6 = fadd double %tmp_5, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 238 'dadd' 'tmp_6' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 32 <SV = 23> <Delay = 6.91>
+ST_32 : Operation 239 [4/5] (6.91ns)   --->   "%tmp_6 = fadd double %tmp_5, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 239 'dadd' 'tmp_6' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 33 <SV = 24> <Delay = 6.91>
+ST_33 : Operation 240 [3/5] (6.91ns)   --->   "%tmp_6 = fadd double %tmp_5, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 240 'dadd' 'tmp_6' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 34 <SV = 25> <Delay = 6.91>
+ST_34 : Operation 241 [2/5] (6.91ns)   --->   "%tmp_6 = fadd double %tmp_5, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 241 'dadd' 'tmp_6' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 35 <SV = 26> <Delay = 6.91>
+ST_35 : Operation 242 [1/5] (6.91ns)   --->   "%tmp_6 = fadd double %tmp_5, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 242 'dadd' 'tmp_6' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 36 <SV = 27> <Delay = 7.28>
+ST_36 : Operation 243 [22/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 243 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 37 <SV = 28> <Delay = 7.28>
+ST_37 : Operation 244 [21/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 244 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 38 <SV = 29> <Delay = 7.28>
+ST_38 : Operation 245 [20/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 245 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 39 <SV = 30> <Delay = 7.28>
+ST_39 : Operation 246 [19/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 246 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 40 <SV = 31> <Delay = 7.28>
+ST_40 : Operation 247 [18/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 247 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 41 <SV = 32> <Delay = 7.28>
+ST_41 : Operation 248 [17/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 248 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 42 <SV = 33> <Delay = 7.28>
+ST_42 : Operation 249 [16/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 249 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 43 <SV = 34> <Delay = 7.28>
+ST_43 : Operation 250 [15/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 250 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 44 <SV = 35> <Delay = 7.28>
+ST_44 : Operation 251 [14/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 251 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 45 <SV = 36> <Delay = 7.28>
+ST_45 : Operation 252 [13/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 252 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 46 <SV = 37> <Delay = 7.28>
+ST_46 : Operation 253 [12/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 253 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 47 <SV = 38> <Delay = 7.28>
+ST_47 : Operation 254 [11/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 254 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 48 <SV = 39> <Delay = 7.28>
+ST_48 : Operation 255 [10/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 255 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 49 <SV = 40> <Delay = 7.28>
+ST_49 : Operation 256 [9/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 256 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 50 <SV = 41> <Delay = 7.28>
+ST_50 : Operation 257 [8/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 257 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 51 <SV = 42> <Delay = 7.28>
+ST_51 : Operation 258 [7/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 258 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 52 <SV = 43> <Delay = 7.28>
+ST_52 : Operation 259 [6/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 259 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 53 <SV = 44> <Delay = 7.28>
+ST_53 : Operation 260 [5/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 260 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 54 <SV = 45> <Delay = 7.28>
+ST_54 : Operation 261 [4/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 261 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 55 <SV = 46> <Delay = 7.28>
+ST_55 : Operation 262 [3/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 262 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 56 <SV = 47> <Delay = 7.28>
+ST_56 : Operation 263 [2/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 263 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 57 <SV = 48> <Delay = 7.28>
+ST_57 : Operation 264 [1/22] (7.28ns)   --->   "%tmp_7 = fdiv double 1.000000e+00, %tmp_6" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 264 'ddiv' 'tmp_7' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 58 <SV = 49> <Delay = 5.50>
+ST_58 : Operation 265 [1/1] (4.15ns)   --->   "%tmp_8 = fptrunc double %tmp_7 to float" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 265 'fptrunc' 'tmp_8' <Predicate = true> <Delay = 4.15> <Core = "Double2Float">   --->   Core 122 'Double2Float' <Latency = 0> <II = 1> <Delay = 4.15> <FuncUnit> <Opcode : 'fptrunc'> <InPorts = 1> <OutPorts = 1>
+ST_58 : Operation 266 [1/1] (0.00ns)   --->   "%hiddenlayer1_addr = getelementptr inbounds [64 x float]* %hiddenlayer1, i64 0, i64 %tmp" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 266 'getelementptr' 'hiddenlayer1_addr' <Predicate = true> <Delay = 0.00>
+ST_58 : Operation 267 [1/1] (1.35ns)   --->   "store float %tmp_8, float* %hiddenlayer1_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:28]   --->   Operation 267 'store' <Predicate = true> <Delay = 1.35> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 128> <RAM>
+ST_58 : Operation 268 [1/1] (0.00ns)   --->   "br label %1" [../../mlp_hw_bueno/src/top_function.cpp:23]   --->   Operation 268 'br' <Predicate = true> <Delay = 0.00>
+
+State 59 <SV = 2> <Delay = 0.90>
+ST_59 : Operation 269 [1/1] (0.00ns)   --->   "%i_1 = phi i8 [ %i_4, %5 ], [ 0, %.preheader8.preheader ]"   --->   Operation 269 'phi' 'i_1' <Predicate = true> <Delay = 0.00>
+ST_59 : Operation 270 [1/1] (0.85ns)   --->   "%exitcond3 = icmp eq i8 %i_1, -128" [../../mlp_hw_bueno/src/top_function.cpp:32]   --->   Operation 270 'icmp' 'exitcond3' <Predicate = true> <Delay = 0.85> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_59 : Operation 271 [1/1] (0.00ns)   --->   "%empty_36 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 128, i64 128, i64 128)"   --->   Operation 271 'speclooptripcount' 'empty_36' <Predicate = true> <Delay = 0.00>
+ST_59 : Operation 272 [1/1] (0.90ns)   --->   "%i_4 = add i8 %i_1, 1" [../../mlp_hw_bueno/src/top_function.cpp:32]   --->   Operation 272 'add' 'i_4' <Predicate = true> <Delay = 0.90> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_59 : Operation 273 [1/1] (0.00ns)   --->   "br i1 %exitcond3, label %.preheader6.preheader, label %.preheader7.preheader" [../../mlp_hw_bueno/src/top_function.cpp:32]   --->   Operation 273 'br' <Predicate = true> <Delay = 0.00>
+ST_59 : Operation 274 [1/1] (0.00ns)   --->   "%tmp_s = zext i8 %i_1 to i64" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 274 'zext' 'tmp_s' <Predicate = (!exitcond3)> <Delay = 0.00>
+ST_59 : Operation 275 [1/1] (0.00ns)   --->   "%tmp_23 = call i14 @_ssdm_op_BitConcatenate.i14.i8.i6(i8 %i_1, i6 0)" [../../mlp_hw_bueno/src/top_function.cpp:32]   --->   Operation 275 'bitconcatenate' 'tmp_23' <Predicate = (!exitcond3)> <Delay = 0.00>
+ST_59 : Operation 276 [1/1] (0.00ns)   --->   "%tmp_36_cast = zext i14 %tmp_23 to i15" [../../mlp_hw_bueno/src/top_function.cpp:33]   --->   Operation 276 'zext' 'tmp_36_cast' <Predicate = (!exitcond3)> <Delay = 0.00>
+ST_59 : Operation 277 [1/1] (0.75ns)   --->   "br label %.preheader7" [../../mlp_hw_bueno/src/top_function.cpp:33]   --->   Operation 277 'br' <Predicate = (!exitcond3)> <Delay = 0.75>
+ST_59 : Operation 278 [1/1] (0.75ns)   --->   "br label %.preheader6" [../../mlp_hw_bueno/src/top_function.cpp:41]   --->   Operation 278 'br' <Predicate = (exitcond3)> <Delay = 0.75>
+
+State 60 <SV = 3> <Delay = 2.34>
+ST_60 : Operation 279 [1/1] (0.00ns)   --->   "%sumatorio_3 = phi float [ %sumatorio_2, %4 ], [ 0.000000e+00, %.preheader7.preheader ]"   --->   Operation 279 'phi' 'sumatorio_3' <Predicate = true> <Delay = 0.00>
+ST_60 : Operation 280 [1/1] (0.00ns)   --->   "%j_1 = phi i7 [ %j_4, %4 ], [ 0, %.preheader7.preheader ]"   --->   Operation 280 'phi' 'j_1' <Predicate = true> <Delay = 0.00>
+ST_60 : Operation 281 [1/1] (0.86ns)   --->   "%exitcond2 = icmp eq i7 %j_1, -64" [../../mlp_hw_bueno/src/top_function.cpp:33]   --->   Operation 281 'icmp' 'exitcond2' <Predicate = true> <Delay = 0.86> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_60 : Operation 282 [1/1] (0.00ns)   --->   "%empty_37 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 64, i64 64, i64 64)"   --->   Operation 282 'speclooptripcount' 'empty_37' <Predicate = true> <Delay = 0.00>
+ST_60 : Operation 283 [1/1] (0.89ns)   --->   "%j_4 = add i7 %j_1, 1" [../../mlp_hw_bueno/src/top_function.cpp:33]   --->   Operation 283 'add' 'j_4' <Predicate = true> <Delay = 0.89> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_60 : Operation 284 [1/1] (0.00ns)   --->   "br i1 %exitcond2, label %5, label %4" [../../mlp_hw_bueno/src/top_function.cpp:33]   --->   Operation 284 'br' <Predicate = true> <Delay = 0.00>
+ST_60 : Operation 285 [1/1] (0.00ns)   --->   "%tmp_16 = zext i7 %j_1 to i64" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 285 'zext' 'tmp_16' <Predicate = (!exitcond2)> <Delay = 0.00>
+ST_60 : Operation 286 [1/1] (0.00ns)   --->   "%tmp_16_cast = zext i7 %j_1 to i15" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 286 'zext' 'tmp_16_cast' <Predicate = (!exitcond2)> <Delay = 0.00>
+ST_60 : Operation 287 [1/1] (0.98ns)   --->   "%tmp_38 = add i15 %tmp_36_cast, %tmp_16_cast" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 287 'add' 'tmp_38' <Predicate = (!exitcond2)> <Delay = 0.98> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_60 : Operation 288 [1/1] (0.00ns)   --->   "%tmp_43_cast = zext i15 %tmp_38 to i64" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 288 'zext' 'tmp_43_cast' <Predicate = (!exitcond2)> <Delay = 0.00>
+ST_60 : Operation 289 [1/1] (0.00ns)   --->   "%WeightHidden2_addr = getelementptr [8192 x float]* @WeightHidden2, i64 0, i64 %tmp_43_cast" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 289 'getelementptr' 'WeightHidden2_addr' <Predicate = (!exitcond2)> <Delay = 0.00>
+ST_60 : Operation 290 [2/2] (1.35ns)   --->   "%WeightHidden2_load = load float* %WeightHidden2_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 290 'load' 'WeightHidden2_load' <Predicate = (!exitcond2)> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+ST_60 : Operation 291 [1/1] (0.00ns)   --->   "%hiddenlayer1_addr_1 = getelementptr inbounds [64 x float]* %hiddenlayer1, i64 0, i64 %tmp_16" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 291 'getelementptr' 'hiddenlayer1_addr_1' <Predicate = (!exitcond2)> <Delay = 0.00>
+ST_60 : Operation 292 [2/2] (1.35ns)   --->   "%hiddenlayer1_load = load float* %hiddenlayer1_addr_1, align 4" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 292 'load' 'hiddenlayer1_load' <Predicate = (!exitcond2)> <Delay = 1.35> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 128> <RAM>
+ST_60 : Operation 293 [1/1] (0.00ns)   --->   "%BiasesHidden2_addr = getelementptr inbounds [128 x float]* @BiasesHidden2, i64 0, i64 %tmp_s" [../../mlp_hw_bueno/src/top_function.cpp:36]   --->   Operation 293 'getelementptr' 'BiasesHidden2_addr' <Predicate = (exitcond2)> <Delay = 0.00>
+ST_60 : Operation 294 [2/2] (1.35ns)   --->   "%BiasesHidden2_load = load float* %BiasesHidden2_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:36]   --->   Operation 294 'load' 'BiasesHidden2_load' <Predicate = (exitcond2)> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+
+State 61 <SV = 4> <Delay = 1.35>
+ST_61 : Operation 295 [1/2] (1.35ns)   --->   "%WeightHidden2_load = load float* %WeightHidden2_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 295 'load' 'WeightHidden2_load' <Predicate = true> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+ST_61 : Operation 296 [1/2] (1.35ns)   --->   "%hiddenlayer1_load = load float* %hiddenlayer1_addr_1, align 4" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 296 'load' 'hiddenlayer1_load' <Predicate = true> <Delay = 1.35> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 128> <RAM>
+
+State 62 <SV = 5> <Delay = 8.28>
+ST_62 : Operation 297 [3/3] (8.28ns)   --->   "%tmp_17 = fmul float %WeightHidden2_load, %hiddenlayer1_load" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 297 'fmul' 'tmp_17' <Predicate = true> <Delay = 8.28> <Core = "FMul">   --->   Core 105 'FMul' <Latency = 2> <II = 1> <Delay = 8.28> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 63 <SV = 6> <Delay = 8.28>
+ST_63 : Operation 298 [2/3] (8.28ns)   --->   "%tmp_17 = fmul float %WeightHidden2_load, %hiddenlayer1_load" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 298 'fmul' 'tmp_17' <Predicate = true> <Delay = 8.28> <Core = "FMul">   --->   Core 105 'FMul' <Latency = 2> <II = 1> <Delay = 8.28> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 64 <SV = 7> <Delay = 8.28>
+ST_64 : Operation 299 [1/3] (8.28ns)   --->   "%tmp_17 = fmul float %WeightHidden2_load, %hiddenlayer1_load" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 299 'fmul' 'tmp_17' <Predicate = true> <Delay = 8.28> <Core = "FMul">   --->   Core 105 'FMul' <Latency = 2> <II = 1> <Delay = 8.28> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 65 <SV = 8> <Delay = 7.71>
+ST_65 : Operation 300 [4/4] (7.71ns)   --->   "%sumatorio_2 = fadd float %sumatorio_3, %tmp_17" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 300 'fadd' 'sumatorio_2' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 66 <SV = 9> <Delay = 7.71>
+ST_66 : Operation 301 [3/4] (7.71ns)   --->   "%sumatorio_2 = fadd float %sumatorio_3, %tmp_17" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 301 'fadd' 'sumatorio_2' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 67 <SV = 10> <Delay = 7.71>
+ST_67 : Operation 302 [2/4] (7.71ns)   --->   "%sumatorio_2 = fadd float %sumatorio_3, %tmp_17" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 302 'fadd' 'sumatorio_2' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 68 <SV = 11> <Delay = 7.71>
+ST_68 : Operation 303 [1/4] (7.71ns)   --->   "%sumatorio_2 = fadd float %sumatorio_3, %tmp_17" [../../mlp_hw_bueno/src/top_function.cpp:34]   --->   Operation 303 'fadd' 'sumatorio_2' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_68 : Operation 304 [1/1] (0.00ns)   --->   "br label %.preheader7" [../../mlp_hw_bueno/src/top_function.cpp:33]   --->   Operation 304 'br' <Predicate = true> <Delay = 0.00>
+
+State 69 <SV = 4> <Delay = 1.35>
+ST_69 : Operation 305 [1/2] (1.35ns)   --->   "%BiasesHidden2_load = load float* %BiasesHidden2_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:36]   --->   Operation 305 'load' 'BiasesHidden2_load' <Predicate = true> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+
+State 70 <SV = 5> <Delay = 7.71>
+ST_70 : Operation 306 [4/4] (7.71ns)   --->   "%input_1 = fadd float %sumatorio_3, %BiasesHidden2_load" [../../mlp_hw_bueno/src/top_function.cpp:36]   --->   Operation 306 'fadd' 'input_1' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 71 <SV = 6> <Delay = 7.71>
+ST_71 : Operation 307 [3/4] (7.71ns)   --->   "%input_1 = fadd float %sumatorio_3, %BiasesHidden2_load" [../../mlp_hw_bueno/src/top_function.cpp:36]   --->   Operation 307 'fadd' 'input_1' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 72 <SV = 7> <Delay = 7.71>
+ST_72 : Operation 308 [2/4] (7.71ns)   --->   "%input_1 = fadd float %sumatorio_3, %BiasesHidden2_load" [../../mlp_hw_bueno/src/top_function.cpp:36]   --->   Operation 308 'fadd' 'input_1' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 73 <SV = 8> <Delay = 7.71>
+ST_73 : Operation 309 [1/4] (7.71ns)   --->   "%input_1 = fadd float %sumatorio_3, %BiasesHidden2_load" [../../mlp_hw_bueno/src/top_function.cpp:36]   --->   Operation 309 'fadd' 'input_1' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 74 <SV = 9> <Delay = 3.88>
+ST_74 : Operation 310 [1/1] (0.00ns)   --->   "%tmp_23_to_int = bitcast float %input_1 to i32" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 310 'bitcast' 'tmp_23_to_int' <Predicate = true> <Delay = 0.00>
+ST_74 : Operation 311 [1/1] (0.40ns)   --->   "%tmp_23_neg = xor i32 %tmp_23_to_int, -2147483648" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 311 'xor' 'tmp_23_neg' <Predicate = true> <Delay = 0.40> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_74 : Operation 312 [1/1] (0.00ns)   --->   "%tmp_10 = bitcast i32 %tmp_23_neg to float" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 312 'bitcast' 'tmp_10' <Predicate = true> <Delay = 0.00>
+ST_74 : Operation 313 [1/1] (3.48ns)   --->   "%tmp_11 = fpext float %tmp_10 to double" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 313 'fpext' 'tmp_11' <Predicate = true> <Delay = 3.48> <Core = "Float2Double">   --->   Core 113 'Float2Double' <Latency = 0> <II = 1> <Delay = 3.48> <FuncUnit> <Opcode : 'fpext'> <InPorts = 1> <OutPorts = 1>
+
+State 75 <SV = 10> <Delay = 8.32>
+ST_75 : Operation 314 [13/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 314 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 76 <SV = 11> <Delay = 8.32>
+ST_76 : Operation 315 [12/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 315 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 77 <SV = 12> <Delay = 8.32>
+ST_77 : Operation 316 [11/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 316 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 78 <SV = 13> <Delay = 8.32>
+ST_78 : Operation 317 [10/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 317 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 79 <SV = 14> <Delay = 8.32>
+ST_79 : Operation 318 [9/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 318 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 80 <SV = 15> <Delay = 8.32>
+ST_80 : Operation 319 [8/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 319 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 81 <SV = 16> <Delay = 8.32>
+ST_81 : Operation 320 [7/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 320 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 82 <SV = 17> <Delay = 8.32>
+ST_82 : Operation 321 [6/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 321 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 83 <SV = 18> <Delay = 8.32>
+ST_83 : Operation 322 [5/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 322 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 84 <SV = 19> <Delay = 8.32>
+ST_84 : Operation 323 [4/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 323 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 85 <SV = 20> <Delay = 8.32>
+ST_85 : Operation 324 [3/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 324 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 86 <SV = 21> <Delay = 8.32>
+ST_86 : Operation 325 [2/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 325 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 87 <SV = 22> <Delay = 8.32>
+ST_87 : Operation 326 [1/13] (8.32ns)   --->   "%tmp_12 = call double @llvm.exp.f64(double %tmp_11)" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 326 'dexp' 'tmp_12' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 88 <SV = 23> <Delay = 6.91>
+ST_88 : Operation 327 [5/5] (6.91ns)   --->   "%tmp_13 = fadd double %tmp_12, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 327 'dadd' 'tmp_13' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 89 <SV = 24> <Delay = 6.91>
+ST_89 : Operation 328 [4/5] (6.91ns)   --->   "%tmp_13 = fadd double %tmp_12, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 328 'dadd' 'tmp_13' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 90 <SV = 25> <Delay = 6.91>
+ST_90 : Operation 329 [3/5] (6.91ns)   --->   "%tmp_13 = fadd double %tmp_12, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 329 'dadd' 'tmp_13' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 91 <SV = 26> <Delay = 6.91>
+ST_91 : Operation 330 [2/5] (6.91ns)   --->   "%tmp_13 = fadd double %tmp_12, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 330 'dadd' 'tmp_13' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 92 <SV = 27> <Delay = 6.91>
+ST_92 : Operation 331 [1/5] (6.91ns)   --->   "%tmp_13 = fadd double %tmp_12, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 331 'dadd' 'tmp_13' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 93 <SV = 28> <Delay = 7.28>
+ST_93 : Operation 332 [22/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 332 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 94 <SV = 29> <Delay = 7.28>
+ST_94 : Operation 333 [21/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 333 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 95 <SV = 30> <Delay = 7.28>
+ST_95 : Operation 334 [20/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 334 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 96 <SV = 31> <Delay = 7.28>
+ST_96 : Operation 335 [19/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 335 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 97 <SV = 32> <Delay = 7.28>
+ST_97 : Operation 336 [18/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 336 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 98 <SV = 33> <Delay = 7.28>
+ST_98 : Operation 337 [17/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 337 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 99 <SV = 34> <Delay = 7.28>
+ST_99 : Operation 338 [16/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 338 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 100 <SV = 35> <Delay = 7.28>
+ST_100 : Operation 339 [15/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 339 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 101 <SV = 36> <Delay = 7.28>
+ST_101 : Operation 340 [14/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 340 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 102 <SV = 37> <Delay = 7.28>
+ST_102 : Operation 341 [13/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 341 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 103 <SV = 38> <Delay = 7.28>
+ST_103 : Operation 342 [12/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 342 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 104 <SV = 39> <Delay = 7.28>
+ST_104 : Operation 343 [11/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 343 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 105 <SV = 40> <Delay = 7.28>
+ST_105 : Operation 344 [10/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 344 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 106 <SV = 41> <Delay = 7.28>
+ST_106 : Operation 345 [9/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 345 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 107 <SV = 42> <Delay = 7.28>
+ST_107 : Operation 346 [8/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 346 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 108 <SV = 43> <Delay = 7.28>
+ST_108 : Operation 347 [7/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 347 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 109 <SV = 44> <Delay = 7.28>
+ST_109 : Operation 348 [6/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 348 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 110 <SV = 45> <Delay = 7.28>
+ST_110 : Operation 349 [5/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 349 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 111 <SV = 46> <Delay = 7.28>
+ST_111 : Operation 350 [4/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 350 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 112 <SV = 47> <Delay = 7.28>
+ST_112 : Operation 351 [3/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 351 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 113 <SV = 48> <Delay = 7.28>
+ST_113 : Operation 352 [2/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 352 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 114 <SV = 49> <Delay = 7.28>
+ST_114 : Operation 353 [1/22] (7.28ns)   --->   "%tmp_14 = fdiv double 1.000000e+00, %tmp_13" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 353 'ddiv' 'tmp_14' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 115 <SV = 50> <Delay = 5.50>
+ST_115 : Operation 354 [1/1] (4.15ns)   --->   "%tmp_15 = fptrunc double %tmp_14 to float" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 354 'fptrunc' 'tmp_15' <Predicate = true> <Delay = 4.15> <Core = "Double2Float">   --->   Core 122 'Double2Float' <Latency = 0> <II = 1> <Delay = 4.15> <FuncUnit> <Opcode : 'fptrunc'> <InPorts = 1> <OutPorts = 1>
+ST_115 : Operation 355 [1/1] (0.00ns)   --->   "%hiddenlayer2_addr = getelementptr inbounds [128 x float]* %hiddenlayer2, i64 0, i64 %tmp_s" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 355 'getelementptr' 'hiddenlayer2_addr' <Predicate = true> <Delay = 0.00>
+ST_115 : Operation 356 [1/1] (1.35ns)   --->   "store float %tmp_15, float* %hiddenlayer2_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:37]   --->   Operation 356 'store' <Predicate = true> <Delay = 1.35> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 128> <RAM>
+ST_115 : Operation 357 [1/1] (0.00ns)   --->   "br label %.preheader8" [../../mlp_hw_bueno/src/top_function.cpp:32]   --->   Operation 357 'br' <Predicate = true> <Delay = 0.00>
+
+State 116 <SV = 3> <Delay = 2.81>
+ST_116 : Operation 358 [1/1] (0.00ns)   --->   "%aux = phi float [ %aux_1, %_ifconv ], [ 0.000000e+00, %.preheader6.preheader ]"   --->   Operation 358 'phi' 'aux' <Predicate = true> <Delay = 0.00>
+ST_116 : Operation 359 [1/1] (0.00ns)   --->   "%i_2 = phi i4 [ %i_5, %_ifconv ], [ 0, %.preheader6.preheader ]"   --->   Operation 359 'phi' 'i_2' <Predicate = true> <Delay = 0.00>
+ST_116 : Operation 360 [1/1] (0.00ns)   --->   "%x_assign = phi float [ %posicion_mayor_1, %_ifconv ], [ 0.000000e+00, %.preheader6.preheader ]"   --->   Operation 360 'phi' 'x_assign' <Predicate = true> <Delay = 0.00>
+ST_116 : Operation 361 [1/1] (0.00ns)   --->   "%i_2_cast4 = zext i4 %i_2 to i32" [../../mlp_hw_bueno/src/top_function.cpp:41]   --->   Operation 361 'zext' 'i_2_cast4' <Predicate = true> <Delay = 0.00>
+ST_116 : Operation 362 [1/1] (0.88ns)   --->   "%exitcond1 = icmp eq i4 %i_2, -6" [../../mlp_hw_bueno/src/top_function.cpp:41]   --->   Operation 362 'icmp' 'exitcond1' <Predicate = true> <Delay = 0.88> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_116 : Operation 363 [1/1] (0.00ns)   --->   "%empty_38 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 10, i64 10, i64 10)"   --->   Operation 363 'speclooptripcount' 'empty_38' <Predicate = true> <Delay = 0.00>
+ST_116 : Operation 364 [1/1] (0.86ns)   --->   "%i_5 = add i4 %i_2, 1" [../../mlp_hw_bueno/src/top_function.cpp:41]   --->   Operation 364 'add' 'i_5' <Predicate = true> <Delay = 0.86> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_116 : Operation 365 [1/1] (0.00ns)   --->   "br i1 %exitcond1, label %7, label %.preheader.preheader" [../../mlp_hw_bueno/src/top_function.cpp:41]   --->   Operation 365 'br' <Predicate = true> <Delay = 0.00>
+ST_116 : Operation 366 [1/1] (0.00ns)   --->   "%tmp_2 = zext i4 %i_2 to i64" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 366 'zext' 'tmp_2' <Predicate = (!exitcond1)> <Delay = 0.00>
+ST_116 : Operation 367 [1/1] (0.00ns)   --->   "%tmp_37 = call i11 @_ssdm_op_BitConcatenate.i11.i4.i7(i4 %i_2, i7 0)" [../../mlp_hw_bueno/src/top_function.cpp:41]   --->   Operation 367 'bitconcatenate' 'tmp_37' <Predicate = (!exitcond1)> <Delay = 0.00>
+ST_116 : Operation 368 [1/1] (0.00ns)   --->   "%tmp_42_cast = zext i11 %tmp_37 to i12" [../../mlp_hw_bueno/src/top_function.cpp:42]   --->   Operation 368 'zext' 'tmp_42_cast' <Predicate = (!exitcond1)> <Delay = 0.00>
+ST_116 : Operation 369 [1/1] (0.75ns)   --->   "br label %.preheader" [../../mlp_hw_bueno/src/top_function.cpp:42]   --->   Operation 369 'br' <Predicate = (!exitcond1)> <Delay = 0.75>
+ST_116 : Operation 370 [1/1] (0.00ns)   --->   "%p_Val2_s = bitcast float %x_assign to i32" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/src/hls\utils/x_hls_utils.h:310->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/src/hls\utils/x_hls_utils.h:319->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:65->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 370 'bitcast' 'p_Val2_s' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 371 [1/1] (0.00ns)   --->   "%tmp_V = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %p_Val2_s, i32 23, i32 30) nounwind" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/src/hls\utils/x_hls_utils.h:317->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/src/hls\utils/x_hls_utils.h:319->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:65->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 371 'partselect' 'tmp_V' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 372 [1/1] (0.00ns)   --->   "%tmp_V_1 = trunc i32 %p_Val2_s to i23" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/src/hls\utils/x_hls_utils.h:318->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/src/hls\utils/x_hls_utils.h:319->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:65->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 372 'trunc' 'tmp_V_1' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 373 [1/1] (0.00ns)   --->   "%mantissa_V = call i25 @_ssdm_op_BitConcatenate.i25.i1.i23.i1(i1 true, i23 %tmp_V_1, i1 false)" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:67->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 373 'bitconcatenate' 'mantissa_V' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 374 [1/1] (0.00ns) (grouped into LUT with out node val_V)   --->   "%mantissa_V_1_cast2 = zext i25 %mantissa_V to i55" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:67->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 374 'zext' 'mantissa_V_1_cast2' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 375 [1/1] (0.00ns)   --->   "%tmp_i_i_i_i_cast1 = zext i8 %tmp_V to i9" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/src/hls\utils/x_hls_utils.h:339->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 375 'zext' 'tmp_i_i_i_i_cast1' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 376 [1/1] (0.90ns)   --->   "%sh_assign = add i9 -127, %tmp_i_i_i_i_cast1" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/src/hls\utils/x_hls_utils.h:339->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 376 'add' 'sh_assign' <Predicate = (exitcond1)> <Delay = 0.90> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_116 : Operation 377 [1/1] (0.00ns)   --->   "%isNeg = call i1 @_ssdm_op_BitSelect.i1.i9.i32(i9 %sh_assign, i32 8)" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 377 'bitselect' 'isNeg' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 378 [1/1] (0.90ns)   --->   "%tmp_i_i_i = sub i8 127, %tmp_V" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 378 'sub' 'tmp_i_i_i' <Predicate = (exitcond1)> <Delay = 0.90> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_116 : Operation 379 [1/1] (0.00ns)   --->   "%tmp_i_i_i_cast = sext i8 %tmp_i_i_i to i9" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 379 'sext' 'tmp_i_i_i_cast' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 380 [1/1] (0.45ns)   --->   "%ush = select i1 %isNeg, i9 %tmp_i_i_i_cast, i9 %sh_assign" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 380 'select' 'ush' <Predicate = (exitcond1)> <Delay = 0.45> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.44> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_116 : Operation 381 [1/1] (0.00ns) (grouped into LUT with out node val_V)   --->   "%sh_assign_2_cast = sext i9 %ush to i32" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 381 'sext' 'sh_assign_2_cast' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 382 [1/1] (0.00ns) (grouped into LUT with out node val_V)   --->   "%sh_assign_2_cast_cas = sext i9 %ush to i25" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 382 'sext' 'sh_assign_2_cast_cas' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 383 [1/1] (0.00ns) (grouped into LUT with out node val_V)   --->   "%tmp_1_i_i_i = zext i32 %sh_assign_2_cast to i55" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 383 'zext' 'tmp_1_i_i_i' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 384 [1/1] (0.00ns) (grouped into LUT with out node val_V)   --->   "%r_V = lshr i25 %mantissa_V, %sh_assign_2_cast_cas" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 384 'lshr' 'r_V' <Predicate = (exitcond1)> <Delay = 0.00> <Core = "Shift">   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 1.45> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_116 : Operation 385 [1/1] (0.00ns) (grouped into LUT with out node val_V)   --->   "%r_V_1 = shl i55 %mantissa_V_1_cast2, %tmp_1_i_i_i" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 385 'shl' 'r_V_1' <Predicate = (exitcond1)> <Delay = 0.00> <Core = "Shift">   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 1.45> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_116 : Operation 386 [1/1] (0.00ns) (grouped into LUT with out node val_V)   --->   "%tmp_36 = call i1 @_ssdm_op_BitSelect.i1.i25.i32(i25 %r_V, i32 24)" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:73->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 386 'bitselect' 'tmp_36' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 387 [1/1] (0.00ns) (grouped into LUT with out node val_V)   --->   "%tmp_28 = zext i1 %tmp_36 to i8" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:73->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 387 'zext' 'tmp_28' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 388 [1/1] (0.00ns) (grouped into LUT with out node val_V)   --->   "%tmp_30 = call i8 @_ssdm_op_PartSelect.i8.i55.i32.i32(i55 %r_V_1, i32 24, i32 31)" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:73->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 388 'partselect' 'tmp_30' <Predicate = (exitcond1)> <Delay = 0.00>
+ST_116 : Operation 389 [1/1] (1.45ns) (out node of the LUT)   --->   "%val_V = select i1 %isNeg, i8 %tmp_28, i8 %tmp_30" [r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 389 'select' 'val_V' <Predicate = (exitcond1)> <Delay = 1.45> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.44> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_116 : Operation 390 [1/1] (0.00ns)   --->   "ret i8 %val_V" [../../mlp_hw_bueno/src/top_function.cpp:54]   --->   Operation 390 'ret' <Predicate = (exitcond1)> <Delay = 0.00>
+
+State 117 <SV = 4> <Delay = 2.29>
+ST_117 : Operation 391 [1/1] (0.00ns)   --->   "%sumatorio_5 = phi float [ %sumatorio_4, %6 ], [ 0.000000e+00, %.preheader.preheader ]"   --->   Operation 391 'phi' 'sumatorio_5' <Predicate = true> <Delay = 0.00>
+ST_117 : Operation 392 [1/1] (0.00ns)   --->   "%j_2 = phi i8 [ %j_5, %6 ], [ 0, %.preheader.preheader ]"   --->   Operation 392 'phi' 'j_2' <Predicate = true> <Delay = 0.00>
+ST_117 : Operation 393 [1/1] (0.85ns)   --->   "%exitcond = icmp eq i8 %j_2, -128" [../../mlp_hw_bueno/src/top_function.cpp:42]   --->   Operation 393 'icmp' 'exitcond' <Predicate = true> <Delay = 0.85> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_117 : Operation 394 [1/1] (0.00ns)   --->   "%empty_39 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 128, i64 128, i64 128)"   --->   Operation 394 'speclooptripcount' 'empty_39' <Predicate = true> <Delay = 0.00>
+ST_117 : Operation 395 [1/1] (0.90ns)   --->   "%j_5 = add i8 %j_2, 1" [../../mlp_hw_bueno/src/top_function.cpp:42]   --->   Operation 395 'add' 'j_5' <Predicate = true> <Delay = 0.90> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_117 : Operation 396 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %_ifconv, label %6" [../../mlp_hw_bueno/src/top_function.cpp:42]   --->   Operation 396 'br' <Predicate = true> <Delay = 0.00>
+ST_117 : Operation 397 [1/1] (0.00ns)   --->   "%tmp_24 = zext i8 %j_2 to i64" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 397 'zext' 'tmp_24' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_117 : Operation 398 [1/1] (0.00ns)   --->   "%tmp_24_cast = zext i8 %j_2 to i12" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 398 'zext' 'tmp_24_cast' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_117 : Operation 399 [1/1] (0.94ns)   --->   "%tmp_41 = add i12 %tmp_42_cast, %tmp_24_cast" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 399 'add' 'tmp_41' <Predicate = (!exitcond)> <Delay = 0.94> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_117 : Operation 400 [1/1] (0.00ns)   --->   "%tmp_44_cast = zext i12 %tmp_41 to i64" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 400 'zext' 'tmp_44_cast' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_117 : Operation 401 [1/1] (0.00ns)   --->   "%WeightOut_addr = getelementptr [1280 x float]* @WeightOut, i64 0, i64 %tmp_44_cast" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 401 'getelementptr' 'WeightOut_addr' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_117 : Operation 402 [2/2] (1.35ns)   --->   "%WeightOut_load = load float* %WeightOut_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 402 'load' 'WeightOut_load' <Predicate = (!exitcond)> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+ST_117 : Operation 403 [1/1] (0.00ns)   --->   "%hiddenlayer2_addr_1 = getelementptr inbounds [128 x float]* %hiddenlayer2, i64 0, i64 %tmp_24" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 403 'getelementptr' 'hiddenlayer2_addr_1' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_117 : Operation 404 [2/2] (1.35ns)   --->   "%hiddenlayer2_load = load float* %hiddenlayer2_addr_1, align 4" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 404 'load' 'hiddenlayer2_load' <Predicate = (!exitcond)> <Delay = 1.35> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 128> <RAM>
+ST_117 : Operation 405 [1/1] (0.00ns)   --->   "%BiasesOut_addr = getelementptr inbounds [10 x float]* @BiasesOut, i64 0, i64 %tmp_2" [../../mlp_hw_bueno/src/top_function.cpp:45]   --->   Operation 405 'getelementptr' 'BiasesOut_addr' <Predicate = (exitcond)> <Delay = 0.00>
+ST_117 : Operation 406 [2/2] (1.35ns)   --->   "%BiasesOut_load = load float* %BiasesOut_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:45]   --->   Operation 406 'load' 'BiasesOut_load' <Predicate = (exitcond)> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+
+State 118 <SV = 5> <Delay = 1.35>
+ST_118 : Operation 407 [1/2] (1.35ns)   --->   "%WeightOut_load = load float* %WeightOut_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 407 'load' 'WeightOut_load' <Predicate = true> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+ST_118 : Operation 408 [1/2] (1.35ns)   --->   "%hiddenlayer2_load = load float* %hiddenlayer2_addr_1, align 4" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 408 'load' 'hiddenlayer2_load' <Predicate = true> <Delay = 1.35> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 128> <RAM>
+
+State 119 <SV = 6> <Delay = 8.28>
+ST_119 : Operation 409 [3/3] (8.28ns)   --->   "%tmp_25 = fmul float %WeightOut_load, %hiddenlayer2_load" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 409 'fmul' 'tmp_25' <Predicate = true> <Delay = 8.28> <Core = "FMul">   --->   Core 105 'FMul' <Latency = 2> <II = 1> <Delay = 8.28> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 120 <SV = 7> <Delay = 8.28>
+ST_120 : Operation 410 [2/3] (8.28ns)   --->   "%tmp_25 = fmul float %WeightOut_load, %hiddenlayer2_load" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 410 'fmul' 'tmp_25' <Predicate = true> <Delay = 8.28> <Core = "FMul">   --->   Core 105 'FMul' <Latency = 2> <II = 1> <Delay = 8.28> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 121 <SV = 8> <Delay = 8.28>
+ST_121 : Operation 411 [1/3] (8.28ns)   --->   "%tmp_25 = fmul float %WeightOut_load, %hiddenlayer2_load" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 411 'fmul' 'tmp_25' <Predicate = true> <Delay = 8.28> <Core = "FMul">   --->   Core 105 'FMul' <Latency = 2> <II = 1> <Delay = 8.28> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 122 <SV = 9> <Delay = 7.71>
+ST_122 : Operation 412 [4/4] (7.71ns)   --->   "%sumatorio_4 = fadd float %sumatorio_5, %tmp_25" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 412 'fadd' 'sumatorio_4' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 123 <SV = 10> <Delay = 7.71>
+ST_123 : Operation 413 [3/4] (7.71ns)   --->   "%sumatorio_4 = fadd float %sumatorio_5, %tmp_25" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 413 'fadd' 'sumatorio_4' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 124 <SV = 11> <Delay = 7.71>
+ST_124 : Operation 414 [2/4] (7.71ns)   --->   "%sumatorio_4 = fadd float %sumatorio_5, %tmp_25" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 414 'fadd' 'sumatorio_4' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 125 <SV = 12> <Delay = 7.71>
+ST_125 : Operation 415 [1/4] (7.71ns)   --->   "%sumatorio_4 = fadd float %sumatorio_5, %tmp_25" [../../mlp_hw_bueno/src/top_function.cpp:43]   --->   Operation 415 'fadd' 'sumatorio_4' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_125 : Operation 416 [1/1] (0.00ns)   --->   "br label %.preheader" [../../mlp_hw_bueno/src/top_function.cpp:42]   --->   Operation 416 'br' <Predicate = true> <Delay = 0.00>
+
+State 126 <SV = 5> <Delay = 1.35>
+ST_126 : Operation 417 [1/2] (1.35ns)   --->   "%BiasesOut_load = load float* %BiasesOut_addr, align 4" [../../mlp_hw_bueno/src/top_function.cpp:45]   --->   Operation 417 'load' 'BiasesOut_load' <Predicate = true> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 10> <ROM>
+
+State 127 <SV = 6> <Delay = 7.71>
+ST_127 : Operation 418 [4/4] (7.71ns)   --->   "%input_2 = fadd float %sumatorio_5, %BiasesOut_load" [../../mlp_hw_bueno/src/top_function.cpp:45]   --->   Operation 418 'fadd' 'input_2' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 128 <SV = 7> <Delay = 7.71>
+ST_128 : Operation 419 [3/4] (7.71ns)   --->   "%input_2 = fadd float %sumatorio_5, %BiasesOut_load" [../../mlp_hw_bueno/src/top_function.cpp:45]   --->   Operation 419 'fadd' 'input_2' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 129 <SV = 8> <Delay = 7.71>
+ST_129 : Operation 420 [2/4] (7.71ns)   --->   "%input_2 = fadd float %sumatorio_5, %BiasesOut_load" [../../mlp_hw_bueno/src/top_function.cpp:45]   --->   Operation 420 'fadd' 'input_2' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 130 <SV = 9> <Delay = 7.71>
+ST_130 : Operation 421 [1/4] (7.71ns)   --->   "%input_2 = fadd float %sumatorio_5, %BiasesOut_load" [../../mlp_hw_bueno/src/top_function.cpp:45]   --->   Operation 421 'fadd' 'input_2' <Predicate = true> <Delay = 7.71> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 7.71> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 131 <SV = 10> <Delay = 3.88>
+ST_131 : Operation 422 [1/1] (0.00ns)   --->   "%tmp_31_to_int = bitcast float %input_2 to i32" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 422 'bitcast' 'tmp_31_to_int' <Predicate = true> <Delay = 0.00>
+ST_131 : Operation 423 [1/1] (0.40ns)   --->   "%tmp_31_neg = xor i32 %tmp_31_to_int, -2147483648" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 423 'xor' 'tmp_31_neg' <Predicate = true> <Delay = 0.40> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_131 : Operation 424 [1/1] (0.00ns)   --->   "%tmp_18 = bitcast i32 %tmp_31_neg to float" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 424 'bitcast' 'tmp_18' <Predicate = true> <Delay = 0.00>
+ST_131 : Operation 425 [1/1] (3.48ns)   --->   "%tmp_19 = fpext float %tmp_18 to double" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 425 'fpext' 'tmp_19' <Predicate = true> <Delay = 3.48> <Core = "Float2Double">   --->   Core 113 'Float2Double' <Latency = 0> <II = 1> <Delay = 3.48> <FuncUnit> <Opcode : 'fpext'> <InPorts = 1> <OutPorts = 1>
+
+State 132 <SV = 11> <Delay = 8.32>
+ST_132 : Operation 426 [13/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 426 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 133 <SV = 12> <Delay = 8.32>
+ST_133 : Operation 427 [12/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 427 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 134 <SV = 13> <Delay = 8.32>
+ST_134 : Operation 428 [11/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 428 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 135 <SV = 14> <Delay = 8.32>
+ST_135 : Operation 429 [10/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 429 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 136 <SV = 15> <Delay = 8.32>
+ST_136 : Operation 430 [9/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 430 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 137 <SV = 16> <Delay = 8.32>
+ST_137 : Operation 431 [8/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 431 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 138 <SV = 17> <Delay = 8.32>
+ST_138 : Operation 432 [7/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 432 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 139 <SV = 18> <Delay = 8.32>
+ST_139 : Operation 433 [6/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 433 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 140 <SV = 19> <Delay = 8.32>
+ST_140 : Operation 434 [5/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 434 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 141 <SV = 20> <Delay = 8.32>
+ST_141 : Operation 435 [4/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 435 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 142 <SV = 21> <Delay = 8.32>
+ST_142 : Operation 436 [3/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 436 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 143 <SV = 22> <Delay = 8.32>
+ST_143 : Operation 437 [2/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 437 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 144 <SV = 23> <Delay = 8.32>
+ST_144 : Operation 438 [1/13] (8.32ns)   --->   "%tmp_20 = call double @llvm.exp.f64(double %tmp_19)" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 438 'dexp' 'tmp_20' <Predicate = true> <Delay = 8.32> <Core = "DExp">   --->   Core 127 'DExp' <Latency = 12> <II = 1> <Delay = 8.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+
+State 145 <SV = 24> <Delay = 6.91>
+ST_145 : Operation 439 [5/5] (6.91ns)   --->   "%tmp_21 = fadd double %tmp_20, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 439 'dadd' 'tmp_21' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 146 <SV = 25> <Delay = 6.91>
+ST_146 : Operation 440 [4/5] (6.91ns)   --->   "%tmp_21 = fadd double %tmp_20, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 440 'dadd' 'tmp_21' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 147 <SV = 26> <Delay = 6.91>
+ST_147 : Operation 441 [3/5] (6.91ns)   --->   "%tmp_21 = fadd double %tmp_20, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 441 'dadd' 'tmp_21' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 148 <SV = 27> <Delay = 6.91>
+ST_148 : Operation 442 [2/5] (6.91ns)   --->   "%tmp_21 = fadd double %tmp_20, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 442 'dadd' 'tmp_21' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 149 <SV = 28> <Delay = 6.91>
+ST_149 : Operation 443 [1/5] (6.91ns)   --->   "%tmp_21 = fadd double %tmp_20, 1.000000e+00" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 443 'dadd' 'tmp_21' <Predicate = true> <Delay = 6.91> <Core = "DAddSub">   --->   Core 114 'DAddSub' <Latency = 4> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+
+State 150 <SV = 29> <Delay = 7.28>
+ST_150 : Operation 444 [22/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 444 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 151 <SV = 30> <Delay = 7.28>
+ST_151 : Operation 445 [21/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 445 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 152 <SV = 31> <Delay = 7.28>
+ST_152 : Operation 446 [20/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 446 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 153 <SV = 32> <Delay = 7.28>
+ST_153 : Operation 447 [19/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 447 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 154 <SV = 33> <Delay = 7.28>
+ST_154 : Operation 448 [18/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 448 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 155 <SV = 34> <Delay = 7.28>
+ST_155 : Operation 449 [17/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 449 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 156 <SV = 35> <Delay = 7.28>
+ST_156 : Operation 450 [16/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 450 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 157 <SV = 36> <Delay = 7.28>
+ST_157 : Operation 451 [15/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 451 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 158 <SV = 37> <Delay = 7.28>
+ST_158 : Operation 452 [14/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 452 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 159 <SV = 38> <Delay = 7.28>
+ST_159 : Operation 453 [13/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 453 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 160 <SV = 39> <Delay = 7.28>
+ST_160 : Operation 454 [12/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 454 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 161 <SV = 40> <Delay = 7.28>
+ST_161 : Operation 455 [11/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 455 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 162 <SV = 41> <Delay = 7.28>
+ST_162 : Operation 456 [10/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 456 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 163 <SV = 42> <Delay = 7.28>
+ST_163 : Operation 457 [9/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 457 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 164 <SV = 43> <Delay = 7.28>
+ST_164 : Operation 458 [8/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 458 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 165 <SV = 44> <Delay = 7.28>
+ST_165 : Operation 459 [7/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 459 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 166 <SV = 45> <Delay = 7.28>
+ST_166 : Operation 460 [6/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 460 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 167 <SV = 46> <Delay = 7.28>
+ST_167 : Operation 461 [5/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 461 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 168 <SV = 47> <Delay = 7.28>
+ST_168 : Operation 462 [4/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 462 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 169 <SV = 48> <Delay = 7.28>
+ST_169 : Operation 463 [3/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 463 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 170 <SV = 49> <Delay = 7.28>
+ST_170 : Operation 464 [2/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 464 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 171 <SV = 50> <Delay = 7.28>
+ST_171 : Operation 465 [1/22] (7.28ns)   --->   "%tmp_22 = fdiv double 1.000000e+00, %tmp_21" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 465 'ddiv' 'tmp_22' <Predicate = true> <Delay = 7.28> <Core = "DDiv">   --->   Core 116 'DDiv' <Latency = 21> <II = 1> <Delay = 7.28> <FuncUnit> <Opcode : 'ddiv' 'drem'> <InPorts = 2> <OutPorts = 1>
+
+State 172 <SV = 51> <Delay = 8.66>
+ST_172 : Operation 466 [1/1] (4.15ns)   --->   "%aux_2 = fptrunc double %tmp_22 to float" [../../mlp_hw_bueno/src/top_function.cpp:46]   --->   Operation 466 'fptrunc' 'aux_2' <Predicate = true> <Delay = 4.15> <Core = "Double2Float">   --->   Core 122 'Double2Float' <Latency = 0> <II = 1> <Delay = 4.15> <FuncUnit> <Opcode : 'fptrunc'> <InPorts = 1> <OutPorts = 1>
+ST_172 : Operation 467 [1/1] (0.00ns)   --->   "%aux_2_to_int = bitcast float %aux_2 to i32" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 467 'bitcast' 'aux_2_to_int' <Predicate = true> <Delay = 0.00>
+ST_172 : Operation 468 [1/1] (0.00ns)   --->   "%tmp_27 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %aux_2_to_int, i32 23, i32 30)" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 468 'partselect' 'tmp_27' <Predicate = true> <Delay = 0.00>
+ST_172 : Operation 469 [1/1] (0.00ns)   --->   "%tmp_39 = trunc i32 %aux_2_to_int to i23" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 469 'trunc' 'tmp_39' <Predicate = true> <Delay = 0.00>
+ST_172 : Operation 470 [1/1] (0.00ns)   --->   "%aux_to_int = bitcast float %aux to i32" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 470 'bitcast' 'aux_to_int' <Predicate = true> <Delay = 0.00>
+ST_172 : Operation 471 [1/1] (0.00ns)   --->   "%tmp_29 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %aux_to_int, i32 23, i32 30)" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 471 'partselect' 'tmp_29' <Predicate = true> <Delay = 0.00>
+ST_172 : Operation 472 [1/1] (0.00ns)   --->   "%tmp_40 = trunc i32 %aux_to_int to i23" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 472 'trunc' 'tmp_40' <Predicate = true> <Delay = 0.00>
+ST_172 : Operation 473 [1/1] (0.85ns)   --->   "%notlhs = icmp ne i8 %tmp_27, -1" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 473 'icmp' 'notlhs' <Predicate = true> <Delay = 0.85> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_172 : Operation 474 [1/1] (0.97ns)   --->   "%notrhs = icmp eq i23 %tmp_39, 0" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 474 'icmp' 'notrhs' <Predicate = true> <Delay = 0.97> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_172 : Operation 475 [1/1] (0.00ns) (grouped into LUT with out node tmp_35)   --->   "%tmp_31 = or i1 %notrhs, %notlhs" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 475 'or' 'tmp_31' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_172 : Operation 476 [1/1] (0.85ns)   --->   "%notlhs9 = icmp ne i8 %tmp_29, -1" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 476 'icmp' 'notlhs9' <Predicate = true> <Delay = 0.85> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_172 : Operation 477 [1/1] (0.97ns)   --->   "%notrhs1 = icmp eq i23 %tmp_40, 0" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 477 'icmp' 'notrhs1' <Predicate = true> <Delay = 0.97> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_172 : Operation 478 [1/1] (0.00ns) (grouped into LUT with out node tmp_35)   --->   "%tmp_32 = or i1 %notrhs1, %notlhs9" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 478 'or' 'tmp_32' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_172 : Operation 479 [1/1] (0.00ns) (grouped into LUT with out node tmp_35)   --->   "%tmp_33 = and i1 %tmp_31, %tmp_32" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 479 'and' 'tmp_33' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_172 : Operation 480 [1/1] (4.18ns)   --->   "%tmp_34 = fcmp ogt float %aux_2, %aux" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 480 'fcmp' 'tmp_34' <Predicate = true> <Delay = 4.18> <Core = "FCmp">   --->   Core 110 'FCmp' <Latency = 0> <II = 1> <Delay = 4.18> <FuncUnit> <Opcode : 'fcmp'> <InPorts = 2> <OutPorts = 1>
+ST_172 : Operation 481 [1/1] (0.33ns) (out node of the LUT)   --->   "%tmp_35 = and i1 %tmp_33, %tmp_34" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 481 'and' 'tmp_35' <Predicate = true> <Delay = 0.33> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.33> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+
+State 173 <SV = 52> <Delay = 6.67>
+ST_173 : Operation 482 [4/4] (6.67ns)   --->   "%posicion_mayor = sitofp i32 %i_2_cast4 to float" [../../mlp_hw_bueno/src/top_function.cpp:50]   --->   Operation 482 'sitofp' 'posicion_mayor' <Predicate = (tmp_35)> <Delay = 6.67> <Core = "Int2Float">   --->   Core 111 'Int2Float' <Latency = 3> <II = 1> <Delay = 6.67> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+ST_173 : Operation 483 [1/1] (0.52ns)   --->   "%aux_1 = select i1 %tmp_35, float %aux_2, float %aux" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 483 'select' 'aux_1' <Predicate = true> <Delay = 0.52> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.44> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+
+State 174 <SV = 53> <Delay = 6.67>
+ST_174 : Operation 484 [3/4] (6.67ns)   --->   "%posicion_mayor = sitofp i32 %i_2_cast4 to float" [../../mlp_hw_bueno/src/top_function.cpp:50]   --->   Operation 484 'sitofp' 'posicion_mayor' <Predicate = (tmp_35)> <Delay = 6.67> <Core = "Int2Float">   --->   Core 111 'Int2Float' <Latency = 3> <II = 1> <Delay = 6.67> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 175 <SV = 54> <Delay = 6.67>
+ST_175 : Operation 485 [2/4] (6.67ns)   --->   "%posicion_mayor = sitofp i32 %i_2_cast4 to float" [../../mlp_hw_bueno/src/top_function.cpp:50]   --->   Operation 485 'sitofp' 'posicion_mayor' <Predicate = (tmp_35)> <Delay = 6.67> <Core = "Int2Float">   --->   Core 111 'Int2Float' <Latency = 3> <II = 1> <Delay = 6.67> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+
+State 176 <SV = 55> <Delay = 7.20>
+ST_176 : Operation 486 [1/4] (6.67ns)   --->   "%posicion_mayor = sitofp i32 %i_2_cast4 to float" [../../mlp_hw_bueno/src/top_function.cpp:50]   --->   Operation 486 'sitofp' 'posicion_mayor' <Predicate = (tmp_35)> <Delay = 6.67> <Core = "Int2Float">   --->   Core 111 'Int2Float' <Latency = 3> <II = 1> <Delay = 6.67> <FuncUnit> <Opcode : 'sitofp' 'uitofp'> <InPorts = 1> <OutPorts = 1>
+ST_176 : Operation 487 [1/1] (0.52ns)   --->   "%posicion_mayor_1 = select i1 %tmp_35, float %posicion_mayor, float %x_assign" [../../mlp_hw_bueno/src/top_function.cpp:48]   --->   Operation 487 'select' 'posicion_mayor_1' <Predicate = true> <Delay = 0.52> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.44> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_176 : Operation 488 [1/1] (0.00ns)   --->   "br label %.preheader6" [../../mlp_hw_bueno/src/top_function.cpp:41]   --->   Operation 488 'br' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0.755ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('i') with incoming values : ('i', ../../mlp_hw_bueno/src/top_function.cpp:23) [12]  (0.755 ns)
+
+ <State 2>: 1.02ns
+The critical path consists of the following:
+	'phi' operation ('phi_mul') with incoming values : ('next_mul') [13]  (0 ns)
+	'add' operation ('next_mul') [14]  (1.02 ns)
+
+ <State 3>: 2.37ns
+The critical path consists of the following:
+	'phi' operation ('j') with incoming values : ('j', ../../mlp_hw_bueno/src/top_function.cpp:24) [24]  (0 ns)
+	'add' operation ('tmp_26', ../../mlp_hw_bueno/src/top_function.cpp:25) [32]  (1.02 ns)
+	'getelementptr' operation ('WeightHidden1_addr', ../../mlp_hw_bueno/src/top_function.cpp:25) [34]  (0 ns)
+	'load' operation ('WeightHidden1_load', ../../mlp_hw_bueno/src/top_function.cpp:25) on array 'WeightHidden1' [35]  (1.35 ns)
+
+ <State 4>: 1.35ns
+The critical path consists of the following:
+	'load' operation ('WeightHidden1_load', ../../mlp_hw_bueno/src/top_function.cpp:25) on array 'WeightHidden1' [35]  (1.35 ns)
+
+ <State 5>: 8.29ns
+The critical path consists of the following:
+	'fmul' operation ('tmp_1', ../../mlp_hw_bueno/src/top_function.cpp:25) [38]  (8.29 ns)
+
+ <State 6>: 8.29ns
+The critical path consists of the following:
+	'fmul' operation ('tmp_1', ../../mlp_hw_bueno/src/top_function.cpp:25) [38]  (8.29 ns)
+
+ <State 7>: 8.29ns
+The critical path consists of the following:
+	'fmul' operation ('tmp_1', ../../mlp_hw_bueno/src/top_function.cpp:25) [38]  (8.29 ns)
+
+ <State 8>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:25) [39]  (7.72 ns)
+
+ <State 9>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:25) [39]  (7.72 ns)
+
+ <State 10>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:25) [39]  (7.72 ns)
+
+ <State 11>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:25) [39]  (7.72 ns)
+
+ <State 12>: 1.35ns
+The critical path consists of the following:
+	'load' operation ('BiasesHidden1_load', ../../mlp_hw_bueno/src/top_function.cpp:27) on array 'BiasesHidden1' [43]  (1.35 ns)
+
+ <State 13>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:27) [44]  (7.72 ns)
+
+ <State 14>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:27) [44]  (7.72 ns)
+
+ <State 15>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:27) [44]  (7.72 ns)
+
+ <State 16>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:27) [44]  (7.72 ns)
+
+ <State 17>: 3.89ns
+The critical path consists of the following:
+	'xor' operation ('tmp_13_neg', ../../mlp_hw_bueno/src/top_function.cpp:28) [46]  (0.401 ns)
+	'fpext' operation ('tmp_4', ../../mlp_hw_bueno/src/top_function.cpp:28) [48]  (3.49 ns)
+
+ <State 18>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 19>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 20>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 21>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 22>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 23>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 24>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 25>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 26>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 27>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 28>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 29>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 30>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_5', ../../mlp_hw_bueno/src/top_function.cpp:28) [49]  (8.33 ns)
+
+ <State 31>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_6', ../../mlp_hw_bueno/src/top_function.cpp:28) [50]  (6.92 ns)
+
+ <State 32>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_6', ../../mlp_hw_bueno/src/top_function.cpp:28) [50]  (6.92 ns)
+
+ <State 33>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_6', ../../mlp_hw_bueno/src/top_function.cpp:28) [50]  (6.92 ns)
+
+ <State 34>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_6', ../../mlp_hw_bueno/src/top_function.cpp:28) [50]  (6.92 ns)
+
+ <State 35>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_6', ../../mlp_hw_bueno/src/top_function.cpp:28) [50]  (6.92 ns)
+
+ <State 36>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 37>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 38>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 39>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 40>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 41>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 42>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 43>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 44>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 45>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 46>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 47>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 48>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 49>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 50>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 51>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 52>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 53>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 54>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 55>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 56>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 57>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_7', ../../mlp_hw_bueno/src/top_function.cpp:28) [51]  (7.29 ns)
+
+ <State 58>: 5.51ns
+The critical path consists of the following:
+	'fptrunc' operation ('tmp_8', ../../mlp_hw_bueno/src/top_function.cpp:28) [52]  (4.15 ns)
+	'store' operation (../../mlp_hw_bueno/src/top_function.cpp:28) of variable 'tmp_8', ../../mlp_hw_bueno/src/top_function.cpp:28 on array 'hiddenlayer1', ../../mlp_hw_bueno/src/top_function.cpp:19 [54]  (1.35 ns)
+
+ <State 59>: 0.907ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', ../../mlp_hw_bueno/src/top_function.cpp:32) [59]  (0 ns)
+	'add' operation ('i', ../../mlp_hw_bueno/src/top_function.cpp:32) [62]  (0.907 ns)
+
+ <State 60>: 2.34ns
+The critical path consists of the following:
+	'phi' operation ('j') with incoming values : ('j', ../../mlp_hw_bueno/src/top_function.cpp:33) [71]  (0 ns)
+	'add' operation ('tmp_38', ../../mlp_hw_bueno/src/top_function.cpp:34) [79]  (0.989 ns)
+	'getelementptr' operation ('WeightHidden2_addr', ../../mlp_hw_bueno/src/top_function.cpp:34) [81]  (0 ns)
+	'load' operation ('WeightHidden2_load', ../../mlp_hw_bueno/src/top_function.cpp:34) on array 'WeightHidden2' [82]  (1.35 ns)
+
+ <State 61>: 1.35ns
+The critical path consists of the following:
+	'load' operation ('WeightHidden2_load', ../../mlp_hw_bueno/src/top_function.cpp:34) on array 'WeightHidden2' [82]  (1.35 ns)
+
+ <State 62>: 8.29ns
+The critical path consists of the following:
+	'fmul' operation ('tmp_17', ../../mlp_hw_bueno/src/top_function.cpp:34) [85]  (8.29 ns)
+
+ <State 63>: 8.29ns
+The critical path consists of the following:
+	'fmul' operation ('tmp_17', ../../mlp_hw_bueno/src/top_function.cpp:34) [85]  (8.29 ns)
+
+ <State 64>: 8.29ns
+The critical path consists of the following:
+	'fmul' operation ('tmp_17', ../../mlp_hw_bueno/src/top_function.cpp:34) [85]  (8.29 ns)
+
+ <State 65>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:34) [86]  (7.72 ns)
+
+ <State 66>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:34) [86]  (7.72 ns)
+
+ <State 67>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:34) [86]  (7.72 ns)
+
+ <State 68>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:34) [86]  (7.72 ns)
+
+ <State 69>: 1.35ns
+The critical path consists of the following:
+	'load' operation ('BiasesHidden2_load', ../../mlp_hw_bueno/src/top_function.cpp:36) on array 'BiasesHidden2' [90]  (1.35 ns)
+
+ <State 70>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:36) [91]  (7.72 ns)
+
+ <State 71>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:36) [91]  (7.72 ns)
+
+ <State 72>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:36) [91]  (7.72 ns)
+
+ <State 73>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:36) [91]  (7.72 ns)
+
+ <State 74>: 3.89ns
+The critical path consists of the following:
+	'xor' operation ('tmp_23_neg', ../../mlp_hw_bueno/src/top_function.cpp:37) [93]  (0.401 ns)
+	'fpext' operation ('tmp_11', ../../mlp_hw_bueno/src/top_function.cpp:37) [95]  (3.49 ns)
+
+ <State 75>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 76>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 77>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 78>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 79>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 80>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 81>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 82>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 83>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 84>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 85>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 86>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 87>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_12', ../../mlp_hw_bueno/src/top_function.cpp:37) [96]  (8.33 ns)
+
+ <State 88>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_13', ../../mlp_hw_bueno/src/top_function.cpp:37) [97]  (6.92 ns)
+
+ <State 89>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_13', ../../mlp_hw_bueno/src/top_function.cpp:37) [97]  (6.92 ns)
+
+ <State 90>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_13', ../../mlp_hw_bueno/src/top_function.cpp:37) [97]  (6.92 ns)
+
+ <State 91>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_13', ../../mlp_hw_bueno/src/top_function.cpp:37) [97]  (6.92 ns)
+
+ <State 92>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_13', ../../mlp_hw_bueno/src/top_function.cpp:37) [97]  (6.92 ns)
+
+ <State 93>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 94>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 95>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 96>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 97>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 98>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 99>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 100>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 101>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 102>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 103>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 104>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 105>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 106>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 107>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 108>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 109>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 110>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 111>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 112>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 113>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 114>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_14', ../../mlp_hw_bueno/src/top_function.cpp:37) [98]  (7.29 ns)
+
+ <State 115>: 5.51ns
+The critical path consists of the following:
+	'fptrunc' operation ('tmp_15', ../../mlp_hw_bueno/src/top_function.cpp:37) [99]  (4.15 ns)
+	'store' operation (../../mlp_hw_bueno/src/top_function.cpp:37) of variable 'tmp_15', ../../mlp_hw_bueno/src/top_function.cpp:37 on array 'hiddenlayer2', ../../mlp_hw_bueno/src/top_function.cpp:20 [101]  (1.35 ns)
+
+ <State 116>: 2.82ns
+The critical path consists of the following:
+	'phi' operation ('posicion_mayor') with incoming values : ('posicion_mayor', ../../mlp_hw_bueno/src/top_function.cpp:48) [108]  (0 ns)
+	'sub' operation ('tmp_i_i_i', r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54) [178]  (0.907 ns)
+	'select' operation ('sh', r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54) [180]  (0.458 ns)
+	'shl' operation ('r.V', r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54) [185]  (0 ns)
+	'select' operation ('val.V', r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116->r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62->../../mlp_hw_bueno/src/top_function.cpp:54) [189]  (1.45 ns)
+
+ <State 117>: 2.3ns
+The critical path consists of the following:
+	'phi' operation ('j') with incoming values : ('j', ../../mlp_hw_bueno/src/top_function.cpp:42) [121]  (0 ns)
+	'add' operation ('tmp_41', ../../mlp_hw_bueno/src/top_function.cpp:43) [129]  (0.948 ns)
+	'getelementptr' operation ('WeightOut_addr', ../../mlp_hw_bueno/src/top_function.cpp:43) [131]  (0 ns)
+	'load' operation ('WeightOut_load', ../../mlp_hw_bueno/src/top_function.cpp:43) on array 'WeightOut' [132]  (1.35 ns)
+
+ <State 118>: 1.35ns
+The critical path consists of the following:
+	'load' operation ('WeightOut_load', ../../mlp_hw_bueno/src/top_function.cpp:43) on array 'WeightOut' [132]  (1.35 ns)
+
+ <State 119>: 8.29ns
+The critical path consists of the following:
+	'fmul' operation ('tmp_25', ../../mlp_hw_bueno/src/top_function.cpp:43) [135]  (8.29 ns)
+
+ <State 120>: 8.29ns
+The critical path consists of the following:
+	'fmul' operation ('tmp_25', ../../mlp_hw_bueno/src/top_function.cpp:43) [135]  (8.29 ns)
+
+ <State 121>: 8.29ns
+The critical path consists of the following:
+	'fmul' operation ('tmp_25', ../../mlp_hw_bueno/src/top_function.cpp:43) [135]  (8.29 ns)
+
+ <State 122>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:43) [136]  (7.72 ns)
+
+ <State 123>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:43) [136]  (7.72 ns)
+
+ <State 124>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:43) [136]  (7.72 ns)
+
+ <State 125>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('sumatorio', ../../mlp_hw_bueno/src/top_function.cpp:43) [136]  (7.72 ns)
+
+ <State 126>: 1.35ns
+The critical path consists of the following:
+	'load' operation ('BiasesOut_load', ../../mlp_hw_bueno/src/top_function.cpp:45) on array 'BiasesOut' [140]  (1.35 ns)
+
+ <State 127>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:45) [141]  (7.72 ns)
+
+ <State 128>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:45) [141]  (7.72 ns)
+
+ <State 129>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:45) [141]  (7.72 ns)
+
+ <State 130>: 7.72ns
+The critical path consists of the following:
+	'fadd' operation ('input', ../../mlp_hw_bueno/src/top_function.cpp:45) [141]  (7.72 ns)
+
+ <State 131>: 3.89ns
+The critical path consists of the following:
+	'xor' operation ('tmp_31_neg', ../../mlp_hw_bueno/src/top_function.cpp:46) [143]  (0.401 ns)
+	'fpext' operation ('tmp_19', ../../mlp_hw_bueno/src/top_function.cpp:46) [145]  (3.49 ns)
+
+ <State 132>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 133>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 134>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 135>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 136>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 137>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 138>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 139>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 140>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 141>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 142>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 143>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 144>: 8.33ns
+The critical path consists of the following:
+	'dexp' operation ('tmp_20', ../../mlp_hw_bueno/src/top_function.cpp:46) [146]  (8.33 ns)
+
+ <State 145>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_21', ../../mlp_hw_bueno/src/top_function.cpp:46) [147]  (6.92 ns)
+
+ <State 146>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_21', ../../mlp_hw_bueno/src/top_function.cpp:46) [147]  (6.92 ns)
+
+ <State 147>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_21', ../../mlp_hw_bueno/src/top_function.cpp:46) [147]  (6.92 ns)
+
+ <State 148>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_21', ../../mlp_hw_bueno/src/top_function.cpp:46) [147]  (6.92 ns)
+
+ <State 149>: 6.92ns
+The critical path consists of the following:
+	'dadd' operation ('tmp_21', ../../mlp_hw_bueno/src/top_function.cpp:46) [147]  (6.92 ns)
+
+ <State 150>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 151>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 152>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 153>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 154>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 155>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 156>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 157>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 158>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 159>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 160>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 161>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 162>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 163>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 164>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 165>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 166>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 167>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 168>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 169>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 170>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 171>: 7.29ns
+The critical path consists of the following:
+	'ddiv' operation ('tmp_22', ../../mlp_hw_bueno/src/top_function.cpp:46) [148]  (7.29 ns)
+
+ <State 172>: 8.67ns
+The critical path consists of the following:
+	'fptrunc' operation ('aux', ../../mlp_hw_bueno/src/top_function.cpp:46) [149]  (4.15 ns)
+	'fcmp' operation ('tmp_34', ../../mlp_hw_bueno/src/top_function.cpp:48) [163]  (4.19 ns)
+	'and' operation ('tmp_35', ../../mlp_hw_bueno/src/top_function.cpp:48) [164]  (0.331 ns)
+
+ <State 173>: 6.67ns
+The critical path consists of the following:
+	'sitofp' operation ('posicion_mayor', ../../mlp_hw_bueno/src/top_function.cpp:50) [165]  (6.67 ns)
+
+ <State 174>: 6.67ns
+The critical path consists of the following:
+	'sitofp' operation ('posicion_mayor', ../../mlp_hw_bueno/src/top_function.cpp:50) [165]  (6.67 ns)
+
+ <State 175>: 6.67ns
+The critical path consists of the following:
+	'sitofp' operation ('posicion_mayor', ../../mlp_hw_bueno/src/top_function.cpp:50) [165]  (6.67 ns)
+
+ <State 176>: 7.2ns
+The critical path consists of the following:
+	'sitofp' operation ('posicion_mayor', ../../mlp_hw_bueno/src/top_function.cpp:50) [165]  (6.67 ns)
+	'select' operation ('posicion_mayor', ../../mlp_hw_bueno/src/top_function.cpp:48) [167]  (0.525 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+	State 19
+	State 20
+	State 21
+	State 22
+	State 23
+	State 24
+	State 25
+	State 26
+	State 27
+	State 28
+	State 29
+	State 30
+	State 31
+	State 32
+	State 33
+	State 34
+	State 35
+	State 36
+	State 37
+	State 38
+	State 39
+	State 40
+	State 41
+	State 42
+	State 43
+	State 44
+	State 45
+	State 46
+	State 47
+	State 48
+	State 49
+	State 50
+	State 51
+	State 52
+	State 53
+	State 54
+	State 55
+	State 56
+	State 57
+	State 58
+	State 59
+	State 60
+	State 61
+	State 62
+	State 63
+	State 64
+	State 65
+	State 66
+	State 67
+	State 68
+	State 69
+	State 70
+	State 71
+	State 72
+	State 73
+	State 74
+	State 75
+	State 76
+	State 77
+	State 78
+	State 79
+	State 80
+	State 81
+	State 82
+	State 83
+	State 84
+	State 85
+	State 86
+	State 87
+	State 88
+	State 89
+	State 90
+	State 91
+	State 92
+	State 93
+	State 94
+	State 95
+	State 96
+	State 97
+	State 98
+	State 99
+	State 100
+	State 101
+	State 102
+	State 103
+	State 104
+	State 105
+	State 106
+	State 107
+	State 108
+	State 109
+	State 110
+	State 111
+	State 112
+	State 113
+	State 114
+	State 115
+	State 116
+	State 117
+	State 118
+	State 119
+	State 120
+	State 121
+	State 122
+	State 123
+	State 124
+	State 125
+	State 126
+	State 127
+	State 128
+	State 129
+	State 130
+	State 131
+	State 132
+	State 133
+	State 134
+	State 135
+	State 136
+	State 137
+	State 138
+	State 139
+	State 140
+	State 141
+	State 142
+	State 143
+	State 144
+	State 145
+	State 146
+	State 147
+	State 148
+	State 149
+	State 150
+	State 151
+	State 152
+	State 153
+	State 154
+	State 155
+	State 156
+	State 157
+	State 158
+	State 159
+	State 160
+	State 161
+	State 162
+	State 163
+	State 164
+	State 165
+	State 166
+	State 167
+	State 168
+	State 169
+	State 170
+	State 171
+	State 172
+	State 173
+	State 174
+	State 175
+	State 176
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

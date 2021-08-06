@@ -1,0 +1,6 @@
+12:21:35 **** Incremental Build of configuration Debug for project mlp ****
+make all 
+make: Nothing to be done for 'all'.
+
+12:21:36 Build Finished (took 1s.227ms)
+

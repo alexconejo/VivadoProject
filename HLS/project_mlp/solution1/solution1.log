@@ -1,0 +1,478 @@
+==============================================================
+File generated on Thu Dec 17 21:18:12 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 21:18:47 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 21:20:02 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 21:21:23 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 21:22:36 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 21:42:41 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 21:44:09 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 21:47:22 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file '../../mlp_hw_bueno/src/top_function.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from ../../mlp_hw_bueno/src/top_function.cpp:1:
+In file included from ../../mlp_hw_bueno/src/top_function.cpp:6:
+../../mlp_hw_bueno/src/mlp.h:25:2: error: use of undeclared identifier 'assert'
+ assert(sizeof(_T) == sizeof(int));
+ ^
+../../mlp_hw_bueno/src/mlp.h:50:2: error: use of undeclared identifier 'assert'
+ assert(sizeof(_T) == sizeof(int));
+ ^
+In file included from ../../mlp_hw_bueno/src/top_function.cpp:1:
+../../mlp_hw_bueno/src/top_function.cpp:69:18: warning: format specifies type 'double' but the argument has type 'T *' (aka 'float *') [-Wformat]
+ printf("pixels %f\n",pixels);
+                ~^    ~~~~~~
+../../mlp_hw_bueno/src/top_function.cpp:67:3: warning: array index 784 is past the end of the array (which contains 784 elements) [-Warray-bounds]
+  pixels[784] = pop_stream<T,4,5,5>(INPUT_STREAM[i],user,id,dest);
+  ^      ~~~
+../../mlp_hw_bueno/src/top_function.cpp:64:2: note: array 'pixels' declared here
+ T pixels[784];
+ ^
+2 warnings and 2 errors generated.
+==============================================================
+File generated on Thu Dec 17 21:48:57 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 21:49:45 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file '../../mlp_hw_bueno/src/top_function.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from ../../mlp_hw_bueno/src/top_function.cpp:1:
+In file included from ../../mlp_hw_bueno/src/top_function.cpp:6:
+../../mlp_hw_bueno/src/mlp.h:25:2: error: use of undeclared identifier 'assert'
+ assert(sizeof(_T) == sizeof(int));
+ ^
+../../mlp_hw_bueno/src/mlp.h:50:2: error: use of undeclared identifier 'assert'
+ assert(sizeof(_T) == sizeof(int));
+ ^
+2 errors generated.
+==============================================================
+File generated on Thu Dec 17 21:51:17 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 21:53:03 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 21:57:06 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 21:58:18 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file '../../mlp_hw_bueno/src/top_function.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from ../../mlp_hw_bueno/src/top_function.cpp:1:
+In file included from ../../mlp_hw_bueno/src/top_function.cpp:6:
+../../mlp_hw_bueno/src/mlp.h:25:2: error: use of undeclared identifier 'assert'
+ assert(sizeof(_T) == sizeof(int));
+ ^
+../../mlp_hw_bueno/src/mlp.h:50:2: error: use of undeclared identifier 'assert'
+ assert(sizeof(_T) == sizeof(int));
+ ^
+2 errors generated.
+==============================================================
+File generated on Thu Dec 17 21:59:47 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file '../../mlp_hw_bueno/src/top_function.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../../mlp_hw/src/coef.c' ... 
+INFO: [HLS 200-10] Analyzing design file '../../mlp_hw/src/bias.c' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:31 . Memory (MB): peak = 103.621 ; gain = 19.141
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:31 . Memory (MB): peak = 103.621 ; gain = 19.141
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:03 ; elapsed = 00:00:35 . Memory (MB): peak = 167.102 ; gain = 82.621
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::mantissa' into 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:67) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::expv' into 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::__signbit' into 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:90) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' into 'generic_cast_IEEE754<unsigned char, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<unsigned char, float>' into '__hls_fptoui_float_i8' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptoui_float_i8' into 'MLP' (../../mlp_hw_bueno/src/top_function.cpp:54) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:04 ; elapsed = 00:00:37 . Memory (MB): peak = 186.883 ; gain = 102.402
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::mantissa' into 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:67) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::expv' into 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' into 'generic_cast_IEEE754<unsigned char, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<unsigned char, float>' into '__hls_fptoui_float_i8' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptoui_float_i8' into 'MLP' (../../mlp_hw_bueno/src/top_function.cpp:54) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../../mlp_hw_bueno/src/top_function.cpp:45:3) to (../../mlp_hw_bueno/src/top_function.cpp:41:17) in function 'MLP'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:05 ; elapsed = 00:00:38 . Memory (MB): peak = 237.109 ; gain = 152.629
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:05 ; elapsed = 00:00:39 . Memory (MB): peak = 250.438 ; gain = 165.957
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'MLP' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MLP' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 39.078 seconds; current allocated memory: 189.562 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 6 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.45 seconds; current allocated memory: 190.688 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MLP' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'MLP/pixels' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'MLP' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'MLP_fadd_32ns_32ns_32_4_full_dsp_1' to 'MLP_fadd_32ns_32nbkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'MLP_fmul_32ns_32ns_32_3_max_dsp_1' to 'MLP_fmul_32ns_32ncud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'MLP_sitofp_32ns_32_4_1' to 'MLP_sitofp_32ns_3dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'MLP_fptrunc_64ns_32_1_1' to 'MLP_fptrunc_64ns_eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'MLP_fpext_32ns_64_1_1' to 'MLP_fpext_32ns_64fYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'MLP_fcmp_32ns_32ns_1_1_1' to 'MLP_fcmp_32ns_32ng8j' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'MLP_dadd_64ns_64ns_64_5_full_dsp_1' to 'MLP_dadd_64ns_64nhbi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'MLP_ddiv_64ns_64ns_64_22_1' to 'MLP_ddiv_64ns_64nibs' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'MLP_dexp_64ns_64ns_64_13_full_dsp_1' to 'MLP_dexp_64ns_64njbC' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'MLP_dadd_64ns_64nhbi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'MLP_ddiv_64ns_64nibs': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'MLP_dexp_64ns_64njbC': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'MLP_fadd_32ns_32nbkb': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'MLP_fcmp_32ns_32ng8j': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'MLP_fmul_32ns_32ncud': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'MLP_fpext_32ns_64fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'MLP_fptrunc_64ns_eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'MLP_sitofp_32ns_3dEe': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MLP'.
+INFO: [HLS 200-111]  Elapsed time: 0.779 seconds; current allocated memory: 192.916 MB.
+INFO: [RTMG 210-279] Implementing memory 'MLP_WeightHidden1_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'MLP_BiasesHidden1_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'MLP_WeightHidden2_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'MLP_BiasesHidden2_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'MLP_WeightOut_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'MLP_BiasesOut_rom' using distributed ROMs.
+INFO: [RTMG 210-278] Implementing memory 'MLP_hiddenlayer1_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'MLP_hiddenlayer2_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:14 ; elapsed = 00:00:59 . Memory (MB): peak = 279.422 ; gain = 194.941
+INFO: [SYSC 207-301] Generating SystemC RTL for MLP.
+INFO: [VHDL 208-304] Generating VHDL RTL for MLP.
+INFO: [VLOG 209-307] Generating Verilog RTL for MLP.
+INFO: [HLS 200-112] Total elapsed time: 59.168 seconds; peak allocated memory: 192.916 MB.
+==============================================================
+File generated on Thu Dec 17 22:06:35 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Thu Dec 17 22:10:21 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Thu Dec 17 22:10:41 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file '../../mlp_hw_bueno/src/top_function.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../../mlp_hw/src/coef.c' ... 
+INFO: [HLS 200-10] Analyzing design file '../../mlp_hw/src/bias.c' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:25 . Memory (MB): peak = 103.797 ; gain = 19.043
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:25 . Memory (MB): peak = 103.797 ; gain = 19.043
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'pop_stream<float, 4, 5, 5>' into 'Wrapped_MLP' (../../mlp_hw_bueno/src/top_function.cpp:67).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:03 ; elapsed = 00:00:28 . Memory (MB): peak = 167.215 ; gain = 82.461
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::mantissa' into 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:67) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::expv' into 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::__signbit' into 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:90) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' into 'generic_cast_IEEE754<unsigned char, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<unsigned char, float>' into '__hls_fptoui_float_i8' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptoui_float_i8' into 'MLP' (../../mlp_hw_bueno/src/top_function.cpp:54) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:05 ; elapsed = 00:00:30 . Memory (MB): peak = 188.285 ; gain = 103.531
+WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'INPUT_STREAM.data.V' (../../mlp_hw_bueno/src/top_function.cpp:57).
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::mantissa' into 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:67) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::expv' into 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:70) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<unsigned char, (ap_q_mode)6, float>' into 'generic_cast_IEEE754<unsigned char, float>' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<unsigned char, float>' into '__hls_fptoui_float_i8' (r:/builds/2018.3/continuous/2018_12_06_2405991/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:62) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptoui_float_i8' into 'MLP' (../../mlp_hw_bueno/src/top_function.cpp:54) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../../mlp_hw_bueno/src/top_function.cpp:45:3) to (../../mlp_hw_bueno/src/top_function.cpp:41:17) in function 'MLP'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:05 ; elapsed = 00:00:32 . Memory (MB): peak = 238.621 ; gain = 153.867
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:06 ; elapsed = 00:00:33 . Memory (MB): peak = 255.543 ; gain = 170.789
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'Wrapped_MLP' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MLP' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 32.963 seconds; current allocated memory: 202.108 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 6 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 1.022 seconds; current allocated memory: 203.246 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Wrapped_MLP' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.906 seconds; current allocated memory: 203.431 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.851 seconds; current allocated memory: 203.545 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MLP' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'Wrapped_MLP_fadd_32ns_32ns_32_4_full_dsp_1' to 'Wrapped_MLP_fadd_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'Wrapped_MLP_fmul_32ns_32ns_32_3_max_dsp_1' to 'Wrapped_MLP_fmul_cud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'Wrapped_MLP_sitofp_32ns_32_4_1' to 'Wrapped_MLP_sitofdEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'Wrapped_MLP_fptrunc_64ns_32_1_1' to 'Wrapped_MLP_fptrueOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'Wrapped_MLP_fpext_32ns_64_1_1' to 'Wrapped_MLP_fpextfYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'Wrapped_MLP_fcmp_32ns_32ns_1_1_1' to 'Wrapped_MLP_fcmp_g8j' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'Wrapped_MLP_dadd_64ns_64ns_64_5_full_dsp_1' to 'Wrapped_MLP_dadd_hbi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'Wrapped_MLP_ddiv_64ns_64ns_64_22_1' to 'Wrapped_MLP_ddiv_ibs' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'Wrapped_MLP_dexp_64ns_64ns_64_13_full_dsp_1' to 'Wrapped_MLP_dexp_jbC' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'Wrapped_MLP_dadd_hbi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Wrapped_MLP_ddiv_ibs': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Wrapped_MLP_dexp_jbC': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Wrapped_MLP_fadd_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Wrapped_MLP_fcmp_g8j': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Wrapped_MLP_fmul_cud': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Wrapped_MLP_fpextfYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Wrapped_MLP_fptrueOg': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Wrapped_MLP_sitofdEe': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MLP'.
+INFO: [HLS 200-111]  Elapsed time: 0.729 seconds; current allocated memory: 205.744 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Wrapped_MLP' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'Wrapped_MLP/INPUT_STREAM_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'Wrapped_MLP/INPUT_STREAM_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'Wrapped_MLP/INPUT_STREAM_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'Wrapped_MLP/INPUT_STREAM_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'Wrapped_MLP/INPUT_STREAM_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'Wrapped_MLP/INPUT_STREAM_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'Wrapped_MLP/INPUT_STREAM_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'Wrapped_MLP' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port CONTROL_BUS.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Wrapped_MLP'.
+INFO: [HLS 200-111]  Elapsed time: 2.62 seconds; current allocated memory: 206.723 MB.
+INFO: [RTMG 210-279] Implementing memory 'MLP_WeightHidden1_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'MLP_BiasesHidden1_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'MLP_WeightHidden2_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'MLP_BiasesHidden2_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'MLP_WeightOut_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'MLP_BiasesOut_rom' using distributed ROMs.
+INFO: [RTMG 210-278] Implementing memory 'MLP_hiddenlayer1_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'MLP_hiddenlayer2_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'Wrapped_MLP_pixels_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:15 ; elapsed = 00:00:51 . Memory (MB): peak = 293.285 ; gain = 208.531
+INFO: [SYSC 207-301] Generating SystemC RTL for Wrapped_MLP.
+INFO: [VHDL 208-304] Generating VHDL RTL for Wrapped_MLP.
+INFO: [VLOG 209-307] Generating Verilog RTL for Wrapped_MLP.
+INFO: [HLS 200-112] Total elapsed time: 51.005 seconds; peak allocated memory: 206.723 MB.
+==============================================================
+File generated on Thu Dec 17 22:12:37 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Thu Dec 17 22:17:06 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generate finished: PASS ***
+==============================================================
+File generated on Thu Dec 17 22:18:59 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+File generated on Thu Dec 17 22:20:36 +0100 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.

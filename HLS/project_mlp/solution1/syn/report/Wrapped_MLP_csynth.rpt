@@ -1,0 +1,188 @@
+
+
+================================================================
+== Vivado HLS Report for 'Wrapped_MLP'
+================================================================
+* Date:           Thu Dec 17 22:11:19 2020
+
+* Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
+* Project:        project_mlp
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu3eg-sbva484-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     9.201|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +--------+--------+--------+--------+---------+
+    |     Latency     |     Interval    | Pipeline|
+    |   min  |   max  |   min  |   max  |   Type  |
+    +--------+--------+--------+--------+---------+
+    |  547559|  547559|  547559|  547559|   none  |
+    +--------+--------+--------+--------+---------+
+
+    + Detail: 
+        * Instance: 
+        +----------------+-------+--------+--------+--------+--------+---------+
+        |                |       |     Latency     |     Interval    | Pipeline|
+        |    Instance    | Module|   min  |   max  |   min  |   max  |   Type  |
+        +----------------+-------+--------+--------+--------+--------+---------+
+        |grp_MLP_fu_113  |MLP    |  546773|  546773|  546773|  546773|   none  |
+        +----------------+-------+--------+--------+--------+--------+---------+
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |  784|  784|         1|          -|          -|   784|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+-----+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  | URAM|
++-----------------+---------+-------+--------+-------+-----+
+|DSP              |        -|      -|       -|      -|    -|
+|Expression       |        -|      -|       0|     44|    -|
+|FIFO             |        -|      -|       -|      -|    -|
+|Instance         |      114|     34|    5881|   9541|    -|
+|Memory           |        2|      -|       0|      0|    -|
+|Multiplexer      |        -|      -|       -|    108|    -|
+|Register         |        -|      -|      84|      -|    -|
++-----------------+---------+-------+--------+-------+-----+
+|Total            |      116|     34|    5965|   9693|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Available        |      432|    360|  141120|  70560|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Utilization (%)  |       26|      9|       4|     13|    0|
++-----------------+---------+-------+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +---------------------------------+-------------------------------+---------+-------+------+------+
+    |             Instance            |             Module            | BRAM_18K| DSP48E|  FF  |  LUT |
+    +---------------------------------+-------------------------------+---------+-------+------+------+
+    |grp_MLP_fu_113                   |MLP                            |      114|     34|  5837|  9485|
+    |Wrapped_MLP_CONTROL_BUS_s_axi_U  |Wrapped_MLP_CONTROL_BUS_s_axi  |        0|      0|    44|    56|
+    +---------------------------------+-------------------------------+---------+-------+------+------+
+    |Total                            |                               |      114|     34|  5881|  9541|
+    +---------------------------------+-------------------------------+---------+-------+------+------+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    +----------+--------------------+---------+---+----+------+-----+------+-------------+
+    |  Memory  |       Module       | BRAM_18K| FF| LUT| Words| Bits| Banks| W*Bits*Banks|
+    +----------+--------------------+---------+---+----+------+-----+------+-------------+
+    |pixels_U  |Wrapped_MLP_pixels  |        2|  0|   0|   784|   32|     1|        25088|
+    +----------+--------------------+---------+---+----+------+-----+------+-------------+
+    |Total     |                    |        2|  0|   0|   784|   32|     1|        25088|
+    +----------+--------------------+---------+---+----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +--------------------------------------+----------+-------+---+----+------------+------------+
+    |             Variable Name            | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +--------------------------------------+----------+-------+---+----+------------+------------+
+    |i_1_fu_136_p2                         |     +    |      0|  0|  17|          10|           1|
+    |INPUT_STREAM_data_V_0_load_A          |    and   |      0|  0|   2|           1|           1|
+    |INPUT_STREAM_data_V_0_load_B          |    and   |      0|  0|   2|           1|           1|
+    |ap_block_state2                       |    and   |      0|  0|   2|           1|           1|
+    |INPUT_STREAM_data_V_0_state_cmp_full  |   icmp   |      0|  0|   8|           2|           1|
+    |exitcond_fu_130_p2                    |   icmp   |      0|  0|  13|          10|           9|
+    +--------------------------------------+----------+-------+---+----+------------+------------+
+    |Total                                 |          |      0|  0|  44|          25|          14|
+    +--------------------------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------------------------+----+-----------+-----+-----------+
+    |              Name              | LUT| Input Size| Bits| Total Bits|
+    +--------------------------------+----+-----------+-----+-----------+
+    |INPUT_STREAM_TDATA_blk_n        |   9|          2|    1|          2|
+    |INPUT_STREAM_data_V_0_data_out  |   9|          2|   32|         64|
+    |INPUT_STREAM_data_V_0_state     |  15|          3|    2|          6|
+    |INPUT_STREAM_dest_V_0_state     |  15|          3|    2|          6|
+    |ap_NS_fsm                       |  21|          4|    1|          4|
+    |i_reg_102                       |   9|          2|   10|         20|
+    |pixels_address0                 |  15|          3|   10|         30|
+    |pixels_ce0                      |  15|          3|    1|          3|
+    +--------------------------------+----+-----------+-----+-----------+
+    |Total                           | 108|         22|   59|        135|
+    +--------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +---------------------------------+----+----+-----+-----------+
+    |               Name              | FF | LUT| Bits| Const Bits|
+    +---------------------------------+----+----+-----+-----------+
+    |INPUT_STREAM_data_V_0_payload_A  |  32|   0|   32|          0|
+    |INPUT_STREAM_data_V_0_payload_B  |  32|   0|   32|          0|
+    |INPUT_STREAM_data_V_0_sel_rd     |   1|   0|    1|          0|
+    |INPUT_STREAM_data_V_0_sel_wr     |   1|   0|    1|          0|
+    |INPUT_STREAM_data_V_0_state      |   2|   0|    2|          0|
+    |INPUT_STREAM_dest_V_0_state      |   2|   0|    2|          0|
+    |ap_CS_fsm                        |   3|   0|    3|          0|
+    |grp_MLP_fu_113_ap_start_reg      |   1|   0|    1|          0|
+    |i_reg_102                        |  10|   0|   10|          0|
+    +---------------------------------+----+----+-----+-----------+
+    |Total                            |  84|   0|   84|          0|
+    +---------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------------+-----+-----+------------+---------------------+--------------+
+|         RTL Ports         | Dir | Bits|  Protocol  |    Source Object    |    C Type    |
++---------------------------+-----+-----+------------+---------------------+--------------+
+|s_axi_CONTROL_BUS_AWVALID  |  in |    1|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_AWREADY  | out |    1|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_AWADDR   |  in |    5|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_WVALID   |  in |    1|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_WREADY   | out |    1|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_WDATA    |  in |   32|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_WSTRB    |  in |    4|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_ARVALID  |  in |    1|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_ARREADY  | out |    1|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_ARADDR   |  in |    5|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_RVALID   | out |    1|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_RREADY   |  in |    1|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_RDATA    | out |   32|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_RRESP    | out |    2|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_BVALID   | out |    1|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_BREADY   |  in |    1|    s_axi   |     CONTROL_BUS     | return value |
+|s_axi_CONTROL_BUS_BRESP    | out |    2|    s_axi   |     CONTROL_BUS     | return value |
+|ap_clk                     |  in |    1| ap_ctrl_hs |     Wrapped_MLP     | return value |
+|ap_rst_n                   |  in |    1| ap_ctrl_hs |     Wrapped_MLP     | return value |
+|interrupt                  | out |    1| ap_ctrl_hs |     Wrapped_MLP     | return value |
+|INPUT_STREAM_TDATA         |  in |   32|    axis    | INPUT_STREAM_data_V |    pointer   |
+|INPUT_STREAM_TVALID        |  in |    1|    axis    | INPUT_STREAM_dest_V |    pointer   |
+|INPUT_STREAM_TREADY        | out |    1|    axis    | INPUT_STREAM_dest_V |    pointer   |
+|INPUT_STREAM_TDEST         |  in |    5|    axis    | INPUT_STREAM_dest_V |    pointer   |
+|INPUT_STREAM_TKEEP         |  in |    4|    axis    | INPUT_STREAM_keep_V |    pointer   |
+|INPUT_STREAM_TSTRB         |  in |    4|    axis    | INPUT_STREAM_strb_V |    pointer   |
+|INPUT_STREAM_TUSER         |  in |    4|    axis    | INPUT_STREAM_user_V |    pointer   |
+|INPUT_STREAM_TLAST         |  in |    1|    axis    | INPUT_STREAM_last_V |    pointer   |
+|INPUT_STREAM_TID           |  in |    5|    axis    |  INPUT_STREAM_id_V  |    pointer   |
++---------------------------+-----+-----+------------+---------------------+--------------+
+
