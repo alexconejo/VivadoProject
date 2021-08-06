@@ -1,5 +1,5 @@
-# VivadoProject
- Proyecto Vivado HLS y HLX de redes neuronales
+# Vivado Project
+ Proyecto Vivado HLS y HLX sobre redes neuronales
  
  ## Acerca del proyecto
  Implementación de un acelerador para un MLP (Multi-Layer Perception) de dos capas ocultas.
